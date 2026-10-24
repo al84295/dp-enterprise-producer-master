@@ -42,6 +42,9 @@ echo "Workspace: $WORKSPACE_URL"
 
 export DATABRICKS_HOST="$WORKSPACE_URL"
 export DATABRICKS_AUTH_TYPE="azure-cli"
+# Deploy bundles with the CLI's direct engine instead of Terraform: no Terraform
+# download or signature check (avoids "OpenPGP key expired" / "error downloading Terraform").
+export DATABRICKS_BUNDLE_ENGINE="${DATABRICKS_BUNDLE_ENGINE:-direct}"
 
 step "2/6 Python dependencies for setup"
 python3 -m pip install --quiet --upgrade "databricks-sdk>=0.60"

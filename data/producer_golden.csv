@@ -1,0 +1,151 @@
+producer_id,producer_name,npn,email,phone,agency_name,segment,office,licensed_states,status,steward_notes,version,updated_by,updated_at
+PRD-000001,Tariq Foster,10384091,tariq.foster@example.com,555-0152,Lakeside Commercial Insurance,Retail,Cleveland OH,"MI,OH,PA",Active,,1,seed,2026-02-09 05:02:00
+PRD-000002,Victor Patel,10332466,,555-0118,Mesa Personal Lines,Retail,Phoenix AZ,"AZ,NM,NV",Active,,1,seed,2025-10-30 23:10:00
+PRD-000003,Elena Gupta,15517050,elena.gupta@example.com,555-0105,Lakeside Commercial Insurance,Retail,Cleveland OH,"MI,OH,PA",Active,,1,seed,2025-08-31 02:42:00
+PRD-000004,Imani Underwood,14545066,imani.underwood@example.com,555-0138,Northstar E&S Brokerage,Specialty,Minneapolis MN,"ND,SD",Active,,1,seed,2026-03-05 11:17:00
+PRD-000005,Imani Foster,10614824,imani.foster@example.com,555-0140,Lakeside Commercial Insurance,Retail,Cleveland OH,OH,Active,,1,seed,2025-10-27 06:43:00
+PRD-000006,Sofia Raman,,sofia.raman@example.com,555-0183,Keystone Transportation Programs,Specialty,Atlanta GA,"GA,MS",Active,NPN missing: confirm with licensing,1,seed,2026-04-14 02:25:00
+PRD-000007,Fatima Moreno,15293849,fatima.moreno@example.com,555-0118,Summit Wholesale,Specialty,Chicago IL,"IL,IN,WI",Active,,1,seed,2026-04-22 21:28:00
+PRD-000008,Julia Ellis,17898926,julia.ellis@example.com,555-0175,Keystone Transportation Programs,Specialty,Atlanta GA,"AL,GA",Inactive,,1,seed,2026-04-03 11:15:00
+PRD-000009,Quinn Brooks,15908942,quinn.brooks@example.com,555-0159,Bayview Excess Markets,Specialty,San Francisco CA,"CA,OR",Active,,1,seed,2025-10-14 04:29:00
+PRD-000010,Dana Lambert,,dana.lambert@example.com,555-0161,Keystone Transportation Programs,Specialty,Atlanta GA,GA,Active,NPN missing: confirm with licensing,1,seed,2025-09-30 18:50:00
+PRD-000011,Gavin Hale,19482096,gavin.hale@example.com,555-0130,Granite Professional Lines,Specialty,Denver CO,UT,Active,,1,seed,2026-07-13 20:47:00
+PRD-000012,Daniel Gupta,15243152,daniel.gupta@example.com,555-0190,Riverbend Agency,Retail,Nashville TN,TN,Active,,1,seed,2026-04-11 16:44:00
+PRD-000013,Sofia Thornton,,sofia.thornton@example.com,555-0194,Harbor Benefits Group,Retail,Boston MA,MA,Active,NPN missing: confirm with licensing,1,seed,2026-07-06 05:52:00
+PRD-000014,Dana Xu,18902903,dana.xu@example.com,555-0181,Coastal Risk Partners,Retail,Tampa FL,FL,Active,,1,seed,2025-09-18 04:40:00
+PRD-000015,Elena Ibarra,17286912,elena.ibarra@example.com,555-0166,Northstar E&S Brokerage,Specialty,Minneapolis MN,"IA,MN",Active,,1,seed,2026-03-31 17:16:00
+PRD-000016,Victor Thornton,10349236,victor.thornton@example.com,555-0137,Bayview Excess Markets,Specialty,San Francisco CA,WA,Active,,1,seed,2026-05-07 09:43:00
+PRD-000017,Julia Hale,16188421,julia.hale@example.com,555-0125,Granite Professional Lines,Specialty,Denver CO,CO,Active,,1,seed,2026-03-18 06:39:00
+PRD-000018,Dana Patel,12621082,dana.patel@example.com,555-0176,Northstar E&S Brokerage,Specialty,Minneapolis MN,SD,Inactive,,1,seed,2026-02-26 15:54:00
+PRD-000019,Zoe Lambert,12280810,zoe.lambert@example.com,555-0162,Delta Program Underwriters,Specialty,Dallas TX,"LA,OK,TX",Active,,1,seed,2026-02-17 14:14:00
+PRD-000020,Hector Underwood,17922871,hector.underwood@example.com,555-0112,Northstar E&S Brokerage,Specialty,Minneapolis MN,"IA,MN,ND,SD",Inactive,,1,seed,2025-09-08 22:35:00
+PRD-000021,Grace Abbott,10072299,grace.abbott@example.com,555-0177,Granite Professional Lines,Specialty,Denver CO,"CO,UT,WY",Active,,1,seed,2026-02-09 14:48:00
+PRD-000022,Leah Chen,13700377,leah.chen@example.com,555-0135,Northstar E&S Brokerage,Specialty,Minneapolis MN,ND,Inactive,,1,seed,2026-04-18 11:12:00
+PRD-000023,Rahul Ortiz,18928974,rahul.ortiz@example.com,555-0148,Pinecrest Insurance Advisors,Retail,Charlotte NC,"SC,VA",Active,,1,seed,2026-07-19 13:17:00
+PRD-000024,Yusuf Reyes,19189632,yusuf.reyes@example.com,555-0162,Harbor Benefits Group,Retail,Boston MA,NH,Active,,1,seed,2026-05-06 14:13:00
+PRD-000025,Marcus Okafor,11899425,marcus.okafor@example.com,555-0161,Summit Wholesale,Specialty,Chicago IL,"IN,WI",Active,,1,seed,2025-08-29 14:46:00
+PRD-000026,Owen Foster,14294802,owen.foster@example.com,555-0174,Mesa Personal Lines,Retail,Phoenix AZ,NM,Active,,1,seed,2026-01-12 05:07:00
+PRD-000027,Avery Brooks,14563359,avery.brooks@example.com,555-0134,Bayview Excess Markets,Specialty,San Francisco CA,WA,Active,,1,seed,2026-05-28 05:48:00
+PRD-000028,Nina Thornton,14212742,nina.thornton@example.com,,Summit Wholesale,Specialty,Chicago IL,"IN,WI",Active,,1,seed,2026-01-07 22:43:00
+PRD-000029,Victor Chen,18799309,victor.chen@example.com,555-0155,Mesa Personal Lines,Retail,Phoenix AZ,"AZ,NM,NV",Active,,1,seed,2026-08-25 00:15:00
+PRD-000030,Dana Raman,14811171,dana.raman@example.com,555-0172,Coastal Risk Partners,Retail,Tampa FL,GA,Inactive,,1,seed,2025-11-03 11:34:00
+PRD-000031,Uma Moreno,11253518,,555-0190,Northstar E&S Brokerage,Specialty,Minneapolis MN,"MN,ND",Inactive,,1,seed,2025-08-26 19:20:00
+PRD-000032,Imani Delgado,12271140,imani.delgado@example.com,555-0179,Bayview Excess Markets,Specialty,San Francisco CA,"CA,WA",Active,,1,seed,2025-12-10 16:44:00
+PRD-000033,Zoe Patel,19777689,,555-0118,Mesa Personal Lines,Retail,Phoenix AZ,"AZ,NV",Active,,1,seed,2026-07-04 04:33:00
+PRD-000034,Kofi Gupta,19558740,kofi.gupta@example.com,555-0169,Delta Program Underwriters,Specialty,Dallas TX,"LA,OK,TX",Active,,1,seed,2026-04-11 06:22:00
+PRD-000035,Rosa Raman,13821240,rosa.raman@example.com,555-0192,Granite Professional Lines,Specialty,Denver CO,CO,Active,,1,seed,2026-01-08 23:37:00
+PRD-000036,Dana Ortiz,10025252,dana.ortiz@example.com,555-0199,Lakeside Commercial Insurance,Retail,Cleveland OH,MI,Active,,1,seed,2025-12-09 21:36:00
+PRD-000037,Quinn Gupta,12299519,quinn.gupta@example.com,,Keystone Transportation Programs,Specialty,Atlanta GA,FL,Active,,1,seed,2026-06-01 19:48:00
+PRD-000038,Zoe Okafor,17541515,zoe.okafor@example.com,,Summit Wholesale,Specialty,Chicago IL,"IL,IN,WI",Active,,1,seed,2026-05-05 02:05:00
+PRD-000039,Gavin Sato,18846753,gavin.sato@example.com,555-0112,Riverbend Agency,Retail,Nashville TN,"AL,KY,TN",Active,,1,seed,2025-09-24 23:54:00
+PRD-000040,Paula Underwood,11210049,,555-0117,Granite Professional Lines,Specialty,Denver CO,"UT,WY",Active,,1,seed,2026-07-31 19:38:00
+PRD-000041,Hana Ortiz,,hana.ortiz@example.com,555-0120,Granite Professional Lines,Specialty,Denver CO,UT,Active,NPN missing: confirm with licensing,1,seed,2025-09-11 21:31:00
+PRD-000042,Mateo Lambert,11040509,mateo.lambert@example.com,555-0148,Pinecrest Insurance Advisors,Retail,Charlotte NC,NC,Active,,1,seed,2026-04-19 16:16:00
+PRD-000043,Hector Hale,17712001,hector.hale@example.com,555-0124,Summit Wholesale,Specialty,Chicago IL,"IL,IN,WI",Active,,1,seed,2026-02-16 12:37:00
+PRD-000044,Kofi Chen,13769614,kofi.chen@example.com,555-0185,Bayview Excess Markets,Specialty,San Francisco CA,"OR,WA",Inactive,,1,seed,2026-01-25 14:17:00
+PRD-000045,Wendy Okafor,18290589,wendy.okafor@example.com,555-0132,Coastal Risk Partners,Retail,Tampa FL,"FL,GA",Active,,1,seed,2025-11-05 00:24:00
+PRD-000046,Fatima Hale,16256005,fatima.hale@example.com,555-0146,Bayview Excess Markets,Specialty,San Francisco CA,"CA,OR",Active,,1,seed,2026-04-02 02:41:00
+PRD-000047,Julia Whitaker,18604784,julia.whitaker@example.com,555-0145,Harbor Benefits Group,Retail,Boston MA,"MA,NH,RI",Active,,1,seed,2026-06-23 22:21:00
+PRD-000048,Zoe Hale,16550157,zoe.hale@example.com,,Keystone Transportation Programs,Specialty,Atlanta GA,"AL,MS",Active,,1,seed,2026-05-21 20:22:00
+PRD-000049,Daniel Moreno,10933830,,555-0129,Harbor Benefits Group,Retail,Boston MA,"MA,NH",Active,,1,seed,2025-12-01 14:59:00
+PRD-000050,Rosa Foster,14066468,rosa.foster@example.com,555-0109,Mesa Personal Lines,Retail,Phoenix AZ,"AZ,NM,NV",Active,,1,seed,2026-05-26 13:33:00
+PRD-000051,Miguel Brooks,18426652,miguel.brooks@example.com,555-0199,Harbor Benefits Group,Retail,Boston MA,"MA,NH,RI",Active,,1,seed,2026-03-23 14:14:00
+PRD-000052,Owen Delgado,13167730,owen.delgado@example.com,555-0129,Keystone Transportation Programs,Specialty,Atlanta GA,FL,Active,,1,seed,2026-02-16 14:45:00
+PRD-000053,Hector Ellis,17960693,hector.ellis@example.com,555-0166,Pinecrest Insurance Advisors,Retail,Charlotte NC,NC,Active,,1,seed,2026-05-28 01:22:00
+PRD-000054,Tariq Ibarra,16495616,tariq.ibarra@example.com,555-0191,Northstar E&S Brokerage,Specialty,Minneapolis MN,"ND,SD",Active,,1,seed,2026-05-10 11:36:00
+PRD-000055,Grace Osei,17133080,grace.osei@example.com,555-0199,Granite Professional Lines,Specialty,Denver CO,"CO,UT,WY",Inactive,,1,seed,2025-08-29 08:33:00
+PRD-000056,Uma Ortiz,11025485,uma.ortiz@example.com,555-0194,Harbor Benefits Group,Retail,Boston MA,"NH,RI",Active,,1,seed,2026-01-29 07:27:00
+PRD-000057,Sam Ibarra,12081461,sam.ibarra@example.com,555-0168,Pinecrest Insurance Advisors,Retail,Charlotte NC,VA,Active,,1,seed,2025-09-14 03:03:00
+PRD-000058,Imani Sato,13614071,imani.sato@example.com,555-0105,Coastal Risk Partners,Retail,Tampa FL,"FL,GA",Active,,1,seed,2026-02-05 06:37:00
+PRD-000059,Elena Xu,16477327,elena.xu@example.com,555-0119,Riverbend Agency,Retail,Nashville TN,"AL,KY",Active,,1,seed,2026-08-01 14:25:00
+PRD-000060,Quinn Moreno,,quinn.moreno@example.com,555-0177,Coastal Risk Partners,Retail,Tampa FL,GA,Active,NPN missing: confirm with licensing,1,seed,2025-12-17 13:05:00
+PRD-000061,Miguel Okafor,14367047,miguel.okafor@example.com,555-0139,Keystone Transportation Programs,Specialty,Atlanta GA,"AL,FL,GA,MS",Active,,1,seed,2025-10-15 17:22:00
+PRD-000062,Marcus Ortiz,11592579,marcus.ortiz@example.com,555-0119,Lakeside Commercial Insurance,Retail,Cleveland OH,"OH,PA",Active,,1,seed,2026-03-26 14:34:00
+PRD-000063,Rahul Gupta,10170295,rahul.gupta@example.com,555-0109,Mesa Personal Lines,Retail,Phoenix AZ,NV,Active,,1,seed,2026-04-06 13:09:00
+PRD-000064,Laura Reyes,18414525,laura.reyes@example.com,555-0131,Granite Professional Lines,Specialty,Denver CO,"CO,WY",Active,,1,seed,2026-03-05 03:20:00
+PRD-000065,Sam Foster,11454235,sam.foster@example.com,555-0117,Lakeside Commercial Insurance,Retail,Cleveland OH,PA,Active,,1,seed,2026-08-21 17:19:00
+PRD-000066,Julia Yamada,16578564,,555-0177,Bayview Excess Markets,Specialty,San Francisco CA,CA,Active,,1,seed,2026-08-24 16:28:00
+PRD-000067,Victor Ibarra,,victor.ibarra@example.com,555-0105,Riverbend Agency,Retail,Nashville TN,"AL,KY,TN",Active,NPN missing: confirm with licensing,1,seed,2025-10-14 09:37:00
+PRD-000068,Wendy Raman,,wendy.raman@example.com,555-0154,Summit Wholesale,Specialty,Chicago IL,IN,Active,NPN missing: confirm with licensing,1,seed,2026-05-26 16:52:00
+PRD-000069,Laura Vance,13325434,laura.vance@example.com,555-0159,Summit Wholesale,Specialty,Chicago IL,"IL,IN",Inactive,,1,seed,2026-03-28 07:17:00
+PRD-000070,Isaac Okafor,,isaac.okafor@example.com,555-0147,Keystone Transportation Programs,Specialty,Atlanta GA,GA,Active,NPN missing: confirm with licensing,1,seed,2026-03-29 02:55:00
+PRD-000071,Wendy Webb,12104483,wendy.webb@example.com,,Delta Program Underwriters,Specialty,Dallas TX,OK,Active,,1,seed,2026-02-08 00:35:00
+PRD-000072,Sam Nguyen,19977437,sam.nguyen@example.com,555-0144,Lakeside Commercial Insurance,Retail,Cleveland OH,OH,Active,,1,seed,2025-09-29 22:51:00
+PRD-000073,Dana Foster,14179676,dana.foster@example.com,555-0181,Summit Wholesale,Specialty,Chicago IL,"IL,WI",Active,,1,seed,2026-03-11 07:26:00
+PRD-000074,Caleb Nguyen,18293015,,555-0195,Riverbend Agency,Retail,Nashville TN,TN,Active,,1,seed,2026-08-08 11:14:00
+PRD-000075,Mateo Vance,16458803,mateo.vance@example.com,555-0134,Riverbend Agency,Retail,Nashville TN,"AL,KY,TN",Active,,1,seed,2026-02-25 02:52:00
+PRD-000076,Uma Xu,18785313,uma.xu@example.com,,Keystone Transportation Programs,Specialty,Atlanta GA,"AL,FL,GA,MS",Active,,1,seed,2026-08-30 06:00:00
+PRD-000077,Owen Thornton,18892851,owen.thornton@example.com,555-0193,Mesa Personal Lines,Retail,Phoenix AZ,NM,Active,,1,seed,2026-08-19 08:59:00
+PRD-000078,Rahul Jensen,14894496,rahul.jensen@example.com,555-0113,Bayview Excess Markets,Specialty,San Francisco CA,"CA,WA",Active,,1,seed,2026-07-27 15:06:00
+PRD-000079,Leah Whitaker,13789617,leah.whitaker@example.com,,Bayview Excess Markets,Specialty,San Francisco CA,"OR,WA",Active,,1,seed,2025-09-11 17:22:00
+PRD-000080,Hector Thornton,19179005,hector.thornton@example.com,555-0198,Granite Professional Lines,Specialty,Denver CO,"CO,UT,WY",Active,,1,seed,2025-11-05 01:15:00
+PRD-000081,Zoe Underwood,12708540,zoe.underwood@example.com,555-0145,Lakeside Commercial Insurance,Retail,Cleveland OH,"MI,PA",Active,,1,seed,2026-05-26 22:24:00
+PRD-000082,Laura Sato,16605866,laura.sato@example.com,555-0100,Summit Wholesale,Specialty,Chicago IL,"IL,IN,WI",Active,,1,seed,2026-03-01 12:19:00
+PRD-000083,Trevor Foster,18448563,trevor.foster@example.com,555-0159,Harbor Benefits Group,Retail,Boston MA,RI,Active,,1,seed,2026-03-04 11:14:00
+PRD-000084,Marcus Jensen,15413947,marcus.jensen@example.com,555-0166,Delta Program Underwriters,Specialty,Dallas TX,"LA,OK,TX",Active,,1,seed,2026-08-28 23:51:00
+PRD-000085,Miguel Zimmer,16417357,miguel.zimmer@example.com,555-0197,Coastal Risk Partners,Retail,Tampa FL,GA,Active,,1,seed,2026-02-17 04:20:00
+PRD-000086,Leah Okafor,11052278,leah.okafor@example.com,555-0192,Summit Wholesale,Specialty,Chicago IL,"IL,IN",Active,,1,seed,2025-10-07 22:41:00
+PRD-000087,Sofia Webb,,sofia.webb@example.com,555-0186,Northstar E&S Brokerage,Specialty,Minneapolis MN,IA,Active,NPN missing: confirm with licensing,1,seed,2026-02-25 11:18:00
+PRD-000088,Uma Osei,16866903,uma.osei@example.com,555-0146,Granite Professional Lines,Specialty,Denver CO,WY,Active,,1,seed,2025-08-28 04:43:00
+PRD-000089,Nadia Ortiz,11899423,nadia.ortiz@example.com,,Keystone Transportation Programs,Specialty,Atlanta GA,"AL,FL,GA,MS",Inactive,,1,seed,2026-07-27 00:49:00
+PRD-000090,Rosa Patel,12672075,rosa.patel@example.com,555-0128,Granite Professional Lines,Specialty,Denver CO,"UT,WY",Active,,1,seed,2025-11-28 10:26:00
+PRD-000091,Avery Reyes,12304009,avery.reyes@example.com,555-0162,Lakeside Commercial Insurance,Retail,Cleveland OH,"MI,OH",Active,,1,seed,2025-09-19 21:24:00
+PRD-000092,Kenji Webb,11324228,kenji.webb@example.com,555-0166,Granite Professional Lines,Specialty,Denver CO,WY,Active,,1,seed,2026-05-12 02:05:00
+PRD-000093,Avery Hale,10465058,avery.hale@example.com,555-0157,Mesa Personal Lines,Retail,Phoenix AZ,"AZ,NV",Active,,1,seed,2026-02-17 01:27:00
+PRD-000094,Oscar Xu,10199765,oscar.xu@example.com,555-0190,Summit Wholesale,Specialty,Chicago IL,"IL,IN",Active,,1,seed,2026-08-03 22:29:00
+PRD-000095,Kofi Foster,17125118,kofi.foster@example.com,555-0175,Lakeside Commercial Insurance,Retail,Cleveland OH,"MI,OH,PA",Active,,1,seed,2025-11-26 01:07:00
+PRD-000096,Julia Chen,11660257,julia.chen@example.com,555-0174,Keystone Transportation Programs,Specialty,Atlanta GA,"FL,GA,MS",Active,,1,seed,2026-04-11 01:57:00
+PRD-000097,Victor Sato,19327758,victor.sato@example.com,555-0117,Harbor Benefits Group,Retail,Boston MA,MA,Inactive,,1,seed,2026-06-11 23:13:00
+PRD-000098,Kofi Jensen,17379331,kofi.jensen@example.com,555-0107,Riverbend Agency,Retail,Nashville TN,"AL,KY,TN",Active,,1,seed,2026-07-21 17:21:00
+PRD-000099,Miguel Jensen,18813155,miguel.jensen@example.com,555-0114,Keystone Transportation Programs,Specialty,Atlanta GA,"AL,FL,GA,MS",Active,,1,seed,2026-01-22 22:09:00
+PRD-000100,Sofia Osei,19909324,,555-0153,Granite Professional Lines,Specialty,Denver CO,"CO,UT,WY",Active,,1,seed,2025-10-23 11:14:00
+PRD-000101,Dana Brooks,10381971,dana.brooks@example.com,555-0190,Summit Wholesale,Specialty,Chicago IL,"IL,IN,WI",Active,,1,seed,2026-03-05 13:32:00
+PRD-000102,Paula Yamada,11359090,paula.yamada@example.com,555-0145,Pinecrest Insurance Advisors,Retail,Charlotte NC,"NC,SC,VA",Active,,1,seed,2026-06-01 00:24:00
+PRD-000103,Elena Whitaker,12019253,elena.whitaker@example.com,555-0199,Mesa Personal Lines,Retail,Phoenix AZ,"AZ,NM,NV",Active,,1,seed,2025-09-21 11:19:00
+PRD-000104,Rosa Yamada,13770413,rosa.yamada@example.com,555-0159,Delta Program Underwriters,Specialty,Dallas TX,TX,Active,,1,seed,2026-04-21 09:36:00
+PRD-000105,Laura Lambert,17436768,laura.lambert@example.com,555-0129,Northstar E&S Brokerage,Specialty,Minneapolis MN,IA,Inactive,,1,seed,2025-11-29 01:31:00
+PRD-000106,Hector Sato,18740538,hector.sato@example.com,,Northstar E&S Brokerage,Specialty,Minneapolis MN,"IA,MN,ND,SD",Active,,1,seed,2026-04-01 11:52:00
+PRD-000107,Julia Underwood,,julia.underwood@example.com,555-0125,Pinecrest Insurance Advisors,Retail,Charlotte NC,"NC,SC,VA",Active,NPN missing: confirm with licensing,1,seed,2026-06-15 17:41:00
+PRD-000108,Avery Chen,19902472,avery.chen@example.com,555-0161,Riverbend Agency,Retail,Nashville TN,TN,Inactive,,1,seed,2026-05-05 13:12:00
+PRD-000109,Oscar Reyes,13398259,oscar.reyes@example.com,555-0114,Coastal Risk Partners,Retail,Tampa FL,FL,Active,,1,seed,2026-06-15 09:47:00
+PRD-000110,Tariq Xu,17996374,tariq.xu@example.com,,Summit Wholesale,Specialty,Chicago IL,"IN,WI",Active,,1,seed,2025-10-22 22:19:00
+PRD-000111,Quinn Lambert,14296918,quinn.lambert@example.com,555-0129,Mesa Personal Lines,Retail,Phoenix AZ,"AZ,NM,NV",Active,,1,seed,2025-11-23 05:22:00
+PRD-000112,Laura Brooks,17627459,,555-0187,Riverbend Agency,Retail,Nashville TN,TN,Active,,1,seed,2026-04-21 09:30:00
+PRD-000113,Daniel Sato,12598254,daniel.sato@example.com,555-0185,Granite Professional Lines,Specialty,Denver CO,"CO,UT,WY",Active,,1,seed,2026-02-11 16:43:00
+PRD-000114,Leah Vance,17309729,leah.vance@example.com,555-0165,Keystone Transportation Programs,Specialty,Atlanta GA,MS,Active,,1,seed,2025-12-21 07:44:00
+PRD-000115,Kenji Reyes,,kenji.reyes@example.com,555-0183,Pinecrest Insurance Advisors,Retail,Charlotte NC,"NC,VA",Inactive,NPN missing: confirm with licensing,1,seed,2025-11-06 20:33:00
+PRD-000116,Uma Zimmer,11296586,uma.zimmer@example.com,555-0170,Coastal Risk Partners,Retail,Tampa FL,"FL,GA",Active,,1,seed,2026-01-30 14:04:00
+PRD-000117,Paula Brooks,10699679,paula.brooks@example.com,555-0160,Coastal Risk Partners,Retail,Tampa FL,"FL,GA",Active,,1,seed,2026-01-04 13:54:00
+PRD-000118,Julia Gupta,,julia.gupta@example.com,555-0102,Keystone Transportation Programs,Specialty,Atlanta GA,AL,Active,NPN missing: confirm with licensing,1,seed,2026-05-12 18:04:00
+PRD-000119,Zoe Nguyen,11796370,zoe.nguyen@example.com,555-0176,Delta Program Underwriters,Specialty,Dallas TX,"LA,TX",Active,,1,seed,2025-10-17 03:53:00
+PRD-000120,Julia Jensen,12250726,julia.jensen@example.com,555-0130,Riverbend Agency,Retail,Nashville TN,"KY,TN",Inactive,,1,seed,2026-06-14 13:54:00
+PRD-000121,Wendy Ellis,12616683,wendy.ellis@example.com,555-0144,Summit Wholesale,Specialty,Chicago IL,"IL,IN,WI",Active,,1,seed,2026-05-12 02:44:00
+PRD-000122,Grace Thornton,18397008,grace.thornton@example.com,555-0198,Pinecrest Insurance Advisors,Retail,Charlotte NC,"NC,SC,VA",Inactive,,1,seed,2026-03-07 16:09:00
+PRD-000123,Kenji Raman,12770068,kenji.raman@example.com,555-0125,Bayview Excess Markets,Specialty,San Francisco CA,"CA,OR,WA",Active,,1,seed,2026-07-27 10:44:00
+PRD-000124,Miguel Moreno,18688702,miguel.moreno@example.com,,Lakeside Commercial Insurance,Retail,Cleveland OH,"MI,OH,PA",Active,,1,seed,2026-03-26 10:39:00
+PRD-000125,Grace Brooks,17070350,,555-0139,Bayview Excess Markets,Specialty,San Francisco CA,"CA,OR,WA",Active,,1,seed,2025-10-31 15:24:00
+PRD-000126,Avery Ellis,12641009,avery.ellis@example.com,555-0160,Pinecrest Insurance Advisors,Retail,Charlotte NC,"NC,SC,VA",Active,,1,seed,2026-07-19 14:08:00
+PRD-000127,Miguel Xu,13167643,miguel.xu@example.com,555-0118,Keystone Transportation Programs,Specialty,Atlanta GA,MS,Active,,1,seed,2026-03-05 10:23:00
+PRD-000128,Rosa Moreno,15380247,,555-0117,Northstar E&S Brokerage,Specialty,Minneapolis MN,SD,Inactive,,1,seed,2026-03-29 07:53:00
+PRD-000129,Miguel Quist,14205502,miguel.quist@example.com,555-0124,Coastal Risk Partners,Retail,Tampa FL,"FL,GA",Active,,1,seed,2026-03-19 05:20:00
+PRD-000130,Kenji Whitaker,12022966,kenji.whitaker@example.com,555-0113,Granite Professional Lines,Specialty,Denver CO,"CO,UT,WY",Active,,1,seed,2026-01-29 01:54:00
+PRD-000131,Tariq Abbott,19215982,tariq.abbott@example.com,555-0133,Mesa Personal Lines,Retail,Phoenix AZ,"NM,NV",Active,,1,seed,2026-03-07 19:28:00
+PRD-000132,Quinn Ortiz,18908688,quinn.ortiz@example.com,555-0195,Harbor Benefits Group,Retail,Boston MA,"MA,RI",Active,,1,seed,2025-09-30 13:02:00
+PRD-000133,Sam Thornton,11895910,sam.thornton@example.com,555-0192,Lakeside Commercial Insurance,Retail,Cleveland OH,"MI,OH,PA",Active,,1,seed,2026-02-15 03:25:00
+PRD-000134,Jordan Abbott,19730605,jordan.abbott@example.com,555-0144,Lakeside Commercial Insurance,Retail,Cleveland OH,MI,Active,,1,seed,2026-02-26 05:35:00
+PRD-000135,Quinn Underwood,11327739,quinn.underwood@example.com,555-0110,Northstar E&S Brokerage,Specialty,Minneapolis MN,MN,Active,,1,seed,2026-08-02 02:56:00
+PRD-000136,Fatima Zimmer,14642260,fatima.zimmer@example.com,555-0101,Northstar E&S Brokerage,Specialty,Minneapolis MN,"MN,ND,SD",Active,,1,seed,2026-05-14 10:58:00
+PRD-000137,Caleb Underwood,15640237,caleb.underwood@example.com,555-0122,Keystone Transportation Programs,Specialty,Atlanta GA,"FL,MS",Active,,1,seed,2026-04-27 08:30:00
+PRD-000138,Isaac Yamada,13863695,isaac.yamada@example.com,555-0114,Pinecrest Insurance Advisors,Retail,Charlotte NC,SC,Active,,1,seed,2026-07-16 05:36:00
+PRD-000139,Quinn Raman,17150489,quinn.raman@example.com,555-0184,Bayview Excess Markets,Specialty,San Francisco CA,"CA,OR,WA",Active,,1,seed,2025-12-16 02:10:00
+PRD-000140,Paula Reyes,11285097,paula.reyes@example.com,555-0107,Northstar E&S Brokerage,Specialty,Minneapolis MN,"IA,MN,SD",Active,,1,seed,2026-02-12 04:05:00
+PRD-000141,Isaac Kowalski,14150936,isaac.kowalski@example.com,555-0133,Bayview Excess Markets,Specialty,San Francisco CA,"OR,WA",Active,,1,seed,2026-02-13 05:52:00
+PRD-000142,Kofi Ibarra,18829466,kofi.ibarra@example.com,555-0199,Bayview Excess Markets,Specialty,San Francisco CA,CA,Active,,1,seed,2026-04-16 13:36:00
+PRD-000143,Imani Thornton,15857667,imani.thornton@example.com,555-0107,Summit Wholesale,Specialty,Chicago IL,IN,Active,,1,seed,2025-12-18 11:17:00
+PRD-000144,Sofia Kowalski,11719058,sofia.kowalski@example.com,555-0128,Granite Professional Lines,Specialty,Denver CO,"CO,UT,WY",Active,,1,seed,2026-01-16 00:33:00
+PRD-000145,Tariq Delgado,15265538,tariq.delgado@example.com,555-0168,Northstar E&S Brokerage,Specialty,Minneapolis MN,"MN,SD",Active,,1,seed,2026-06-27 20:53:00
+PRD-000146,Paula Zimmer,11671728,paula.zimmer@example.com,555-0181,Harbor Benefits Group,Retail,Boston MA,"MA,RI",Active,,1,seed,2026-08-07 14:29:00
+PRD-000147,Victor Ellis,12963315,victor.ellis@example.com,555-0178,Delta Program Underwriters,Specialty,Dallas TX,"LA,OK",Active,,1,seed,2026-07-17 08:05:00
+PRD-000148,Mateo Webb,17688579,mateo.webb@example.com,555-0147,Lakeside Commercial Insurance,Retail,Cleveland OH,"MI,OH,PA",Active,,1,seed,2026-01-19 21:06:00
+PRD-000149,Caleb Vance,11984250,caleb.vance@example.com,555-0108,Northstar E&S Brokerage,Specialty,Minneapolis MN,"IA,SD",Active,,1,seed,2026-04-24 04:10:00
+PRD-000150,Sofia Sato,19530654,sofia.sato@example.com,555-0166,Coastal Risk Partners,Retail,Tampa FL,FL,Active,,1,seed,2026-09-01 08:45:00

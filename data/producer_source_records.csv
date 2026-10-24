@@ -1,0 +1,259 @@
+source_system,source_key,producer_name,npn,email,agency_name,matched_producer_id,match_confidence,match_status,reviewed_by,reviewed_at,loaded_at
+AMS-West,AW-1013,Tariq Foster,10384091,tariq.foster@example.com,Lakeside Commercial Insurance,PRD-000001,1.00,Matched,seed,2026-02-02 07:59:00,2026-01-31 12:59:00
+AMS-West,AW-1048,Victor Patel,10332466,,Mesa Personal Lines,PRD-000002,0.98,Matched,seed,2026-05-25 10:14:00,2026-05-23 22:14:00
+CRM,C-1022,Victor L. Patel,10332466,vpatel@example.com,Mesa Personal Lines,PRD-000002,0.97,Matched,seed,2026-04-27 14:48:00,2026-04-26 07:48:00
+AMS-East,AE-1003,Elena Gupta,15517050,elena.gupta@example.com,Lakeside Commercial Insurance,PRD-000003,0.98,Matched,seed,2026-07-31 01:31:00,2026-07-30 22:31:00
+AMS-West,AW-1068,Imani Underwood,14545066,imani.underwood@example.com,Northstar E&S Brokerage,PRD-000004,0.98,Matched,seed,2026-09-01 08:27:00,2026-08-30 09:27:00
+AMS-East,AE-1027,Imani Foster,10614824,imani.foster@example.com,Lakeside Commercial Insurance,PRD-000005,0.98,Matched,seed,2026-03-27 02:58:00,2026-03-26 00:58:00
+AMS-West,AW-1098,Sofia Raman,,sofia.raman@example.com,Keystone Transportation Programs,PRD-000006,0.98,Matched,seed,2026-02-22 04:14:00,2026-02-21 13:14:00
+ProgramAdmin,P-1029,Sofia L. Raman,,sraman@example.com,Keystone Transportation Programs,PRD-000006,0.71,Proposed,,,2026-09-15 06:39:00
+AMS-East,AE-1038,Fatima Moreno,15293849,fatima.moreno@example.com,Summit Wholesale,PRD-000007,0.99,Matched,seed,2026-06-13 23:19:00,2026-06-12 04:19:00
+CRM,C-1056,Fatima L. Moreno,15293849,fmoreno@example.com,Summit Wholesale,PRD-000007,0.97,Matched,seed,2026-08-25 03:08:00,2026-08-23 06:08:00
+AMS-West,AW-1118,Julia Ellis,17898926,julia.ellis@example.com,Keystone Transportation Programs,PRD-000008,0.99,Matched,seed,2026-07-15 21:32:00,2026-07-14 07:32:00
+CRM,C-1064,Julia D. Ellis,17898926,jellis@example.com,Keystone Transportation Programs,PRD-000008,0.96,Proposed,,,2026-09-02 09:58:00
+AMS-West,AW-1150,Quinn Brooks,15908942,quinn.brooks@example.com,Bayview Excess Markets,PRD-000009,0.98,Matched,seed,2026-03-22 12:55:00,2026-03-21 06:55:00
+AMS-East,AE-1050,Dana Lambert,,dana.lambert@example.com,Keystone Transportation Programs,PRD-000010,0.98,Matched,seed,2026-05-09 16:55:00,2026-05-07 19:55:00
+AMS-East,AE-1064,Gavin Hale,19482096,gavin.hale@example.com,Granite Professional Lines,PRD-000011,0.99,Matched,seed,2026-08-06 06:49:00,2026-08-05 09:49:00
+AMS-West,AW-1176,Daniel Gupta,15243152,daniel.gupta@example.com,Riverbend Agency,PRD-000012,0.98,Matched,seed,2026-02-12 22:11:00,2026-02-12 10:11:00
+AMS-East,AE-1074,Sofia Thornton,,sofia.thornton@example.com,Harbor Benefits Group,PRD-000013,0.97,Matched,seed,2026-04-24 00:53:00,2026-04-22 23:53:00
+CRM,C-1072,"Thornton, Sofia",,sofiat@example.com,Harbor Benefits Group,PRD-000013,0.88,Matched,seed,2026-08-07 17:19:00,2026-08-06 01:19:00
+AMS-East,AE-1084,Dana Xu,18902903,dana.xu@example.com,Coastal Risk Partners,PRD-000014,0.97,Matched,seed,2026-06-27 01:07:00,2026-06-25 22:07:00
+AMS-East,AE-1115,Elena Ibarra,17286912,elena.ibarra@example.com,Northstar E&S Brokerage,PRD-000015,0.99,Matched,seed,2026-01-28 13:13:00,2026-01-27 07:13:00
+CRM,C-1103,"Ibarra, Elena",,elena.ibarra@example.com,Northstar E&S Brokerage,PRD-000015,0.68,Proposed,,,2026-08-12 19:05:00
+AMS-West,AW-1177,Victor Thornton,10349236,victor.thornton@example.com,Bayview Excess Markets,PRD-000016,0.98,Matched,seed,2026-05-29 16:18:00,2026-05-28 01:18:00
+ProgramAdmin,P-1043,Victor B. Thornton,,vthornton@example.com,Bayview Excess Markets,PRD-000016,0.78,Proposed,,,2026-09-26 14:52:00
+AMS-West,AW-1210,Julia Hale,16188421,julia.hale@example.com,Granite Professional Lines,PRD-000017,1.00,Matched,seed,2026-05-16 03:00:00,2026-05-15 07:00:00
+AMS-West,AW-1211,Dana Patel,12621082,dana.patel@example.com,Northstar E&S Brokerage,PRD-000018,0.97,Matched,seed,2026-08-21 23:38:00,2026-08-19 23:38:00
+CRM,C-1111,Dana M. Patel,12621082,dana.patel@example.com,Northstar E&S Brokerage,PRD-000018,0.97,Matched,seed,2026-04-24 02:41:00,2026-04-23 08:41:00
+AMS-West,AW-1248,Zoe Lambert,12280810,zoe.lambert@example.com,Delta Program Underwriters,PRD-000019,0.98,Matched,seed,2026-05-12 04:07:00,2026-05-11 06:07:00
+AMS-West,AW-1268,Hector Underwood,17922871,hector.underwood@example.com,Northstar E&S Brokerage,PRD-000020,0.99,Matched,seed,2026-03-13 13:11:00,2026-03-12 05:11:00
+AMS-West,AW-1302,Grace Abbott,10072299,grace.abbott@example.com,Granite Professional Lines,PRD-000021,0.99,Matched,seed,2026-02-10 18:46:00,2026-02-09 05:46:00
+AMS-West,AW-1337,Leah Chen,13700377,leah.chen@example.com,Northstar E&S Brokerage,PRD-000022,0.97,Matched,seed,2026-02-13 00:15:00,2026-02-11 19:15:00
+CRM,C-1122,Leah E. Chen,,leahc@example.com,Northstar E&S Brokerage,PRD-000022,0.78,Matched,seed,2026-06-10 03:08:00,2026-06-09 21:08:00
+AMS-West,AW-1373,Rahul Ortiz,18928974,rahul.ortiz@example.com,Pinecrest Insurance Advisors,PRD-000023,1.00,Matched,seed,2025-12-05 14:32:00,2025-12-04 16:32:00
+ProgramAdmin,P-1080,"Ortiz, Rahul",,rahul.ortiz@example.com,Pinecrest Insurance Advisors,PRD-000023,0.74,Proposed,,,2026-09-23 07:02:00
+AMS-East,AE-1125,Yusuf Reyes,19189632,yusuf.reyes@example.com,Harbor Benefits Group,PRD-000024,0.99,Matched,seed,2026-05-07 17:15:00,2026-05-07 08:15:00
+CRM,C-1139,YUSUF REYES,,yusuf.reyes@example.com,Harbor Benefits Group,PRD-000024,0.84,Matched,seed,2026-06-06 02:08:00,2026-06-04 06:08:00
+AMS-East,AE-1139,Marcus Okafor,11899425,marcus.okafor@example.com,Summit Wholesale,PRD-000025,0.99,Matched,seed,2026-02-16 17:02:00,2026-02-15 11:02:00
+CRM,C-1159,Marcus Okafor,,marcuso@example.com,Summit Wholesale,PRD-000025,0.66,Matched,seed,2026-08-13 01:49:00,2026-08-11 12:49:00
+AMS-East,AE-1175,Owen Foster,14294802,owen.foster@example.com,Mesa Personal Lines,PRD-000026,0.98,Matched,seed,2025-12-22 09:42:00,2025-12-20 18:42:00
+AMS-West,AW-1392,Avery Brooks,14563359,avery.brooks@example.com,Bayview Excess Markets,PRD-000027,0.99,Matched,seed,2026-04-06 01:58:00,2026-04-05 00:58:00
+ProgramAdmin,P-1115,Avery Brooks,,abrooks@example.com,Bayview Excess Markets,PRD-000027,0.78,Matched,seed,2026-04-02 06:30:00,2026-04-02 03:30:00
+AMS-West,AW-1426,Nina Thornton,14212742,nina.thornton@example.com,Summit Wholesale,PRD-000028,0.99,Matched,seed,2026-04-28 03:47:00,2026-04-26 09:47:00
+ProgramAdmin,P-1134,"Thornton, Nina",14212742,ninat@example.com,Summit Wholesale,PRD-000028,0.95,Matched,seed,2026-08-08 14:24:00,2026-08-07 15:24:00
+AMS-East,AE-1176,Victor Chen,18799309,victor.chen@example.com,Mesa Personal Lines,PRD-000029,0.98,Matched,seed,2026-03-28 01:12:00,2026-03-26 01:12:00
+CRM,C-1168,Victor C. Chen,18799309,victor.chen@example.com,Mesa Personal Lines,PRD-000029,0.99,Matched,seed,2026-06-12 15:35:00,2026-06-11 21:35:00
+AMS-East,AE-1179,Dana Raman,14811171,dana.raman@example.com,Coastal Risk Partners,PRD-000030,0.98,Matched,seed,2026-05-19 01:26:00,2026-05-17 23:26:00
+CRM,C-1179,D. Raman,,dana.raman@example.com,Coastal Risk Partners,PRD-000030,0.86,Matched,seed,2026-08-10 13:20:00,2026-08-09 08:20:00
+AMS-West,AW-1462,Uma Moreno,11253518,,Northstar E&S Brokerage,PRD-000031,0.99,Matched,seed,2026-01-14 11:49:00,2026-01-14 07:49:00
+AMS-West,AW-1482,Imani Delgado,12271140,imani.delgado@example.com,Bayview Excess Markets,PRD-000032,0.99,Matched,seed,2026-02-20 04:48:00,2026-02-18 23:48:00
+AMS-East,AE-1189,Zoe Patel,19777689,,Mesa Personal Lines,PRD-000033,0.99,Matched,seed,2026-01-18 13:41:00,2026-01-18 03:41:00
+AMS-East,AE-1213,Kofi Gupta,19558740,kofi.gupta@example.com,Delta Program Underwriters,PRD-000034,0.99,Matched,seed,2026-08-03 18:37:00,2026-08-02 19:37:00
+AMS-West,AW-1512,Rosa Raman,13821240,rosa.raman@example.com,Granite Professional Lines,PRD-000035,0.98,Matched,seed,2026-01-05 05:32:00,2026-01-04 12:32:00
+ProgramAdmin,P-1163,ROSA RAMAN,,rraman@example.com,Granite Professional Lines,PRD-000035,0.75,Matched,seed,2026-06-19 20:25:00,2026-06-18 09:25:00
+AMS-West,AW-1538,Dana Ortiz,10025252,dana.ortiz@example.com,Lakeside Commercial Insurance,PRD-000036,0.99,Matched,seed,2026-03-12 10:22:00,2026-03-12 06:22:00
+CRM,C-1211,DANA ORTIZ,10025252,dana.ortiz@example.com,Lakeside Commercial Insurance,PRD-000036,0.96,Matched,seed,2026-04-26 05:35:00,2026-04-24 23:35:00
+AMS-West,AW-1555,Quinn Gupta,12299519,quinn.gupta@example.com,Keystone Transportation Programs,PRD-000037,0.97,Matched,seed,2026-01-31 14:15:00,2026-01-31 07:15:00
+AMS-East,AE-1240,Zoe Okafor,17541515,zoe.okafor@example.com,Summit Wholesale,PRD-000038,0.97,Matched,seed,2026-04-28 07:48:00,2026-04-28 04:48:00
+AMS-East,AE-1260,Gavin Sato,18846753,gavin.sato@example.com,Riverbend Agency,PRD-000039,1.00,Matched,seed,2026-09-04 08:09:00,2026-09-02 18:09:00
+ProgramAdmin,P-1173,Gavin L. Sato,,gavin.sato@example.com,Riverbend Agency,PRD-000039,0.75,Matched,seed,2026-07-13 09:00:00,2026-07-12 18:00:00
+AMS-East,AE-1295,Paula Underwood,11210049,,Granite Professional Lines,PRD-000040,0.97,Matched,seed,2026-04-17 22:11:00,2026-04-16 08:11:00
+CRM,C-1219,Paula Underwood,11210049,punderwood@example.com,Granite Professional Lines,PRD-000040,0.97,Matched,seed,2026-04-04 03:15:00,2026-04-02 20:15:00
+AMS-West,AW-1576,Hana Ortiz,,hana.ortiz@example.com,Granite Professional Lines,PRD-000041,0.99,Matched,seed,2026-02-19 03:20:00,2026-02-18 13:20:00
+ProgramAdmin,P-1204,Hana C. Ortiz,,hanao@example.com,Granite Professional Lines,PRD-000041,0.90,Matched,seed,2026-08-26 14:38:00,2026-08-25 01:38:00
+AMS-East,AE-1318,Mateo Lambert,11040509,mateo.lambert@example.com,Pinecrest Insurance Advisors,PRD-000042,0.98,Matched,seed,2026-02-06 18:31:00,2026-02-05 20:31:00
+CRM,C-1250,Mateo Lambert,11040509,mateo.lambert@example.com,Pinecrest Insurance Advisors,PRD-000042,0.98,Matched,seed,2026-05-13 13:00:00,2026-05-12 21:00:00
+AMS-West,AW-1588,Hector Hale,17712001,hector.hale@example.com,Summit Wholesale,PRD-000043,0.97,Matched,seed,2026-09-02 04:49:00,2026-08-31 19:49:00
+ProgramAdmin,P-1238,Hector Hale,,hector.hale@example.com,Summit Wholesale,PRD-000043,0.75,Matched,seed,2026-08-26 14:21:00,2026-08-26 08:21:00
+AMS-East,AE-1342,Kofi Chen,13769614,kofi.chen@example.com,Bayview Excess Markets,PRD-000044,0.98,Matched,seed,2026-01-04 05:03:00,2026-01-03 15:03:00
+CRM,C-1287,Kofi A. Chen,13769614,kofi.chen@example.com,Bayview Excess Markets,PRD-000044,0.97,Proposed,,,2026-09-17 12:42:00
+AMS-East,AE-1367,Wendy Okafor,18290589,wendy.okafor@example.com,Coastal Risk Partners,PRD-000045,0.99,Matched,seed,2026-04-21 02:21:00,2026-04-20 06:21:00
+ProgramAdmin,P-1262,Wendy L. Okafor,,wendy.okafor@example.com,Coastal Risk Partners,PRD-000045,0.75,Matched,seed,2026-06-22 04:28:00,2026-06-20 12:28:00
+AMS-West,AW-1607,Fatima Hale,16256005,fatima.hale@example.com,Bayview Excess Markets,PRD-000046,0.98,Matched,seed,2026-02-16 00:05:00,2026-02-15 21:05:00
+AMS-East,AE-1399,Julia Whitaker,18604784,julia.whitaker@example.com,Harbor Benefits Group,PRD-000047,0.99,Matched,seed,2026-06-22 04:55:00,2026-06-21 23:55:00
+ProgramAdmin,P-1293,J. Whitaker,18604784,jwhitaker@example.com,Harbor Benefits Group,PRD-000047,0.96,Matched,seed,2026-04-16 22:19:00,2026-04-15 19:19:00
+AMS-East,AE-1421,Zoe Hale,16550157,zoe.hale@example.com,Keystone Transportation Programs,PRD-000048,0.99,Matched,seed,2026-08-12 22:02:00,2026-08-12 09:02:00
+CRM,C-1300,Z. Hale,16550157,zoe.hale@example.com,Keystone Transportation Programs,PRD-000048,0.95,Matched,seed,2026-04-25 09:57:00,2026-04-24 12:57:00
+AMS-East,AE-1456,Daniel Moreno,10933830,,Harbor Benefits Group,PRD-000049,0.98,Matched,seed,2026-07-27 03:02:00,2026-07-25 06:02:00
+AMS-West,AW-1619,Rosa Foster,14066468,rosa.foster@example.com,Mesa Personal Lines,PRD-000050,0.99,Matched,seed,2026-04-02 02:12:00,2026-03-31 19:12:00
+AMS-East,AE-1491,Miguel Brooks,18426652,miguel.brooks@example.com,Harbor Benefits Group,PRD-000051,0.99,Matched,seed,2026-04-10 18:54:00,2026-04-10 03:54:00
+CRM,C-1315,Miguel Brooks,18426652,miguel.brooks@example.com,Harbor Benefits Group,PRD-000051,0.98,Proposed,,,2026-09-01 07:18:00
+AMS-East,AE-1508,Owen Delgado,13167730,owen.delgado@example.com,Keystone Transportation Programs,PRD-000052,0.97,Matched,seed,2026-07-30 14:47:00,2026-07-29 03:47:00
+AMS-East,AE-1515,Hector Ellis,17960693,hector.ellis@example.com,Pinecrest Insurance Advisors,PRD-000053,0.99,Matched,seed,2026-01-13 18:27:00,2026-01-12 12:27:00
+AMS-East,AE-1521,Tariq Ibarra,16495616,tariq.ibarra@example.com,Northstar E&S Brokerage,PRD-000054,0.98,Matched,seed,2025-12-21 01:03:00,2025-12-19 12:03:00
+ProgramAdmin,P-1325,Tariq Ibarra,16495616,tariq.ibarra@example.com,Northstar E&S Brokerage,PRD-000054,0.99,Proposed,,,2026-09-16 16:13:00
+AMS-East,AE-1535,Grace Osei,17133080,grace.osei@example.com,Granite Professional Lines,PRD-000055,0.97,Matched,seed,2025-12-29 12:55:00,2025-12-28 11:55:00
+AMS-West,AW-1625,Uma Ortiz,11025485,uma.ortiz@example.com,Harbor Benefits Group,PRD-000056,0.98,Matched,seed,2026-01-04 10:12:00,2026-01-03 19:12:00
+AMS-East,AE-1569,Sam Ibarra,12081461,sam.ibarra@example.com,Pinecrest Insurance Advisors,PRD-000057,0.97,Matched,seed,2026-06-26 20:30:00,2026-06-26 17:30:00
+AMS-West,AW-1650,Imani Sato,13614071,imani.sato@example.com,Coastal Risk Partners,PRD-000058,0.98,Matched,seed,2026-05-10 14:45:00,2026-05-09 15:45:00
+AMS-East,AE-1606,Elena Xu,16477327,elena.xu@example.com,Riverbend Agency,PRD-000059,0.99,Matched,seed,2026-01-04 06:19:00,2026-01-03 02:19:00
+AMS-West,AW-1668,Quinn Moreno,,quinn.moreno@example.com,Coastal Risk Partners,PRD-000060,1.00,Matched,seed,2026-09-02 01:09:00,2026-09-01 21:09:00
+CRM,C-1344,Quinn M. Moreno,,qmoreno@example.com,Coastal Risk Partners,PRD-000060,0.89,Proposed,,,2026-08-12 11:18:00
+AMS-West,AW-1677,Miguel Okafor,14367047,miguel.okafor@example.com,Keystone Transportation Programs,PRD-000061,0.99,Matched,seed,2026-02-28 18:47:00,2026-02-27 10:47:00
+ProgramAdmin,P-1353,"Okafor, Miguel",14367047,mokafor@example.com,Keystone Transportation Programs,PRD-000061,0.99,Proposed,,,2026-09-16 21:26:00
+AMS-East,AE-1612,Marcus Ortiz,11592579,marcus.ortiz@example.com,Lakeside Commercial Insurance,PRD-000062,0.98,Matched,seed,2026-08-11 20:06:00,2026-08-10 00:06:00
+CRM,C-1357,Marcus Ortiz,,marcus.ortiz@example.com,Lakeside Commercial Insurance,PRD-000062,0.66,Matched,seed,2026-08-11 15:31:00,2026-08-10 09:31:00
+AMS-West,AW-1710,Rahul Gupta,10170295,rahul.gupta@example.com,Mesa Personal Lines,PRD-000063,0.98,Matched,seed,2026-07-31 16:59:00,2026-07-30 22:59:00
+CRM,C-1369,Rahul R. Gupta,,rahul.gupta@example.com,Mesa Personal Lines,PRD-000063,0.88,Proposed,,,2026-08-27 21:06:00
+AMS-West,AW-1747,Laura Reyes,18414525,laura.reyes@example.com,Granite Professional Lines,PRD-000064,0.99,Matched,seed,2026-09-09 02:11:00,2026-09-08 21:11:00
+CRM,C-1384,L. Reyes,18414525,laurar@example.com,Granite Professional Lines,PRD-000064,0.96,Matched,seed,2026-07-11 15:32:00,2026-07-11 01:32:00
+AMS-East,AE-1640,Sam Foster,11454235,sam.foster@example.com,Lakeside Commercial Insurance,PRD-000065,0.99,Matched,seed,2026-04-11 17:48:00,2026-04-11 15:48:00
+ProgramAdmin,P-1373,SAM FOSTER,,sam.foster@example.com,Lakeside Commercial Insurance,PRD-000065,0.81,Matched,seed,2026-05-23 18:49:00,2026-05-22 23:49:00
+AMS-East,AE-1677,Julia Yamada,16578564,,Bayview Excess Markets,PRD-000066,0.98,Matched,seed,2026-08-16 12:53:00,2026-08-14 20:53:00
+AMS-East,AE-1684,Victor Ibarra,,victor.ibarra@example.com,Riverbend Agency,PRD-000067,0.99,Matched,seed,2026-02-20 20:44:00,2026-02-19 00:44:00
+ProgramAdmin,P-1381,V. Ibarra,,victori@example.com,Riverbend Agency,PRD-000067,0.64,Proposed,,,2026-09-12 20:10:00
+AMS-West,AW-1752,Wendy Raman,,wendy.raman@example.com,Summit Wholesale,PRD-000068,0.97,Matched,seed,2025-12-06 11:22:00,2025-12-04 17:22:00
+CRM,C-1399,Wendy A. Raman,,wendy.raman@example.com,Summit Wholesale,PRD-000068,0.88,Matched,seed,2026-03-28 15:10:00,2026-03-26 21:10:00
+AMS-West,AW-1760,Laura Vance,13325434,laura.vance@example.com,Summit Wholesale,PRD-000069,0.99,Matched,seed,2026-03-12 01:38:00,2026-03-11 18:38:00
+CRM,C-1406,Laura Vance,13325434,laura.vance@example.com,Summit Wholesale,PRD-000069,0.99,Matched,seed,2026-07-29 07:22:00,2026-07-28 09:22:00
+AMS-West,AW-1790,Isaac Okafor,,isaac.okafor@example.com,Keystone Transportation Programs,PRD-000070,0.98,Matched,seed,2026-04-08 07:54:00,2026-04-07 14:54:00
+ProgramAdmin,P-1400,I. Okafor,,iokafor@example.com,Keystone Transportation Programs,PRD-000070,0.72,Proposed,,,2026-08-06 02:19:00
+AMS-West,AW-1812,Wendy Webb,12104483,wendy.webb@example.com,Delta Program Underwriters,PRD-000071,0.98,Matched,seed,2026-05-28 05:39:00,2026-05-26 16:39:00
+CRM,C-1421,Wendy Webb,12104483,wendy.webb@example.com,Delta Program Underwriters,PRD-000071,0.98,Proposed,,,2026-08-21 00:28:00
+AMS-West,AW-1839,Sam Nguyen,19977437,sam.nguyen@example.com,Lakeside Commercial Insurance,PRD-000072,1.00,Matched,seed,2026-02-05 02:34:00,2026-02-03 02:34:00
+AMS-West,AW-1871,Dana Foster,14179676,dana.foster@example.com,Summit Wholesale,PRD-000073,1.00,Matched,seed,2026-05-05 04:34:00,2026-05-03 23:34:00
+ProgramAdmin,P-1406,"Foster, Dana",,danaf@example.com,Summit Wholesale,PRD-000073,0.77,Matched,seed,2026-06-23 22:15:00,2026-06-23 10:15:00
+AMS-West,AW-1900,Caleb Nguyen,18293015,,Riverbend Agency,PRD-000074,0.99,Matched,seed,2026-07-04 14:18:00,2026-07-03 21:18:00
+AMS-West,AW-1917,Mateo Vance,16458803,mateo.vance@example.com,Riverbend Agency,PRD-000075,1.00,Matched,seed,2025-12-13 19:31:00,2025-12-13 10:31:00
+CRM,C-1448,M. Vance,16458803,mvance@example.com,Riverbend Agency,PRD-000075,0.96,Matched,seed,2026-07-02 00:30:00,2026-07-01 02:30:00
+AMS-East,AE-1691,Uma Xu,18785313,uma.xu@example.com,Keystone Transportation Programs,PRD-000076,0.98,Matched,seed,2026-07-11 05:13:00,2026-07-09 07:13:00
+AMS-West,AW-1943,Owen Thornton,18892851,owen.thornton@example.com,Mesa Personal Lines,PRD-000077,0.99,Matched,seed,2026-02-26 13:21:00,2026-02-25 21:21:00
+ProgramAdmin,P-1442,Owen J. Thornton,18892851,othornton@example.com,Mesa Personal Lines,PRD-000077,0.96,Matched,seed,2026-06-12 00:29:00,2026-06-11 00:29:00
+AMS-East,AE-1703,Rahul Jensen,14894496,rahul.jensen@example.com,Bayview Excess Markets,PRD-000078,0.99,Matched,seed,2026-01-11 09:41:00,2026-01-09 09:41:00
+AMS-West,AW-1944,Leah Whitaker,13789617,leah.whitaker@example.com,Bayview Excess Markets,PRD-000079,1.00,Matched,seed,2026-08-01 09:15:00,2026-08-01 01:15:00
+CRM,C-1476,Leah Whitaker,13789617,leah.whitaker@example.com,Bayview Excess Markets,PRD-000079,0.96,Proposed,,,2026-09-06 16:05:00
+AMS-West,AW-1976,Hector Thornton,19179005,hector.thornton@example.com,Granite Professional Lines,PRD-000080,0.98,Matched,seed,2026-03-26 06:03:00,2026-03-24 16:03:00
+CRM,C-1489,HECTOR THORNTON,,hthornton@example.com,Granite Professional Lines,PRD-000080,0.82,Matched,seed,2026-07-29 13:51:00,2026-07-28 03:51:00
+AMS-East,AE-1728,Zoe Underwood,12708540,zoe.underwood@example.com,Lakeside Commercial Insurance,PRD-000081,0.98,Matched,seed,2026-04-22 07:22:00,2026-04-21 13:22:00
+CRM,C-1505,Z. Underwood,12708540,zoe.underwood@example.com,Lakeside Commercial Insurance,PRD-000081,0.96,Matched,seed,2026-04-18 11:54:00,2026-04-17 05:54:00
+AMS-East,AE-1762,Laura Sato,16605866,laura.sato@example.com,Summit Wholesale,PRD-000082,1.00,Matched,seed,2026-07-23 21:55:00,2026-07-21 23:55:00
+AMS-East,AE-1793,Trevor Foster,18448563,trevor.foster@example.com,Harbor Benefits Group,PRD-000083,0.99,Matched,seed,2026-05-07 07:39:00,2026-05-05 16:39:00
+AMS-West,AW-2004,Marcus Jensen,15413947,marcus.jensen@example.com,Delta Program Underwriters,PRD-000084,0.98,Matched,seed,2026-05-17 22:46:00,2026-05-17 16:46:00
+AMS-West,AW-2010,Miguel Zimmer,16417357,miguel.zimmer@example.com,Coastal Risk Partners,PRD-000085,0.98,Matched,seed,2026-05-17 21:45:00,2026-05-16 00:45:00
+ProgramAdmin,P-1473,"Zimmer, Miguel",16417357,miguelz@example.com,Coastal Risk Partners,PRD-000085,0.99,Matched,seed,2026-08-12 21:05:00,2026-08-11 12:05:00
+AMS-East,AE-1818,Leah Okafor,11052278,leah.okafor@example.com,Summit Wholesale,PRD-000086,0.98,Matched,seed,2026-08-20 21:13:00,2026-08-20 14:13:00
+CRM,C-1516,Leah E. Okafor,11052278,lokafor@example.com,Summit Wholesale,PRD-000086,0.98,Matched,seed,2026-06-04 12:13:00,2026-06-03 13:13:00
+AMS-West,AW-2021,Sofia Webb,,sofia.webb@example.com,Northstar E&S Brokerage,PRD-000087,1.00,Matched,seed,2026-06-06 03:15:00,2026-06-05 11:15:00
+ProgramAdmin,P-1502,Sofia M. Webb,,sofia.webb@example.com,Northstar E&S Brokerage,PRD-000087,0.85,Proposed,,,2026-09-01 06:46:00
+AMS-West,AW-2024,Uma Osei,16866903,uma.osei@example.com,Granite Professional Lines,PRD-000088,0.97,Matched,seed,2026-03-11 17:46:00,2026-03-10 16:46:00
+ProgramAdmin,P-1539,UMA OSEI,,uma.osei@example.com,Granite Professional Lines,PRD-000088,0.85,Proposed,,,2026-08-20 15:57:00
+AMS-East,AE-1833,Nadia Ortiz,11899423,nadia.ortiz@example.com,Keystone Transportation Programs,PRD-000089,1.00,Matched,seed,2025-12-16 14:10:00,2025-12-15 01:10:00
+ProgramAdmin,P-1551,N. Ortiz,11899423,nortiz@example.com,Keystone Transportation Programs,PRD-000089,0.97,Proposed,,,2026-08-10 13:06:00
+AMS-West,AW-2031,Rosa Patel,12672075,rosa.patel@example.com,Granite Professional Lines,PRD-000090,0.99,Matched,seed,2025-12-06 23:25:00,2025-12-06 00:25:00
+ProgramAdmin,P-1579,Rosa J. Patel,,rpatel@example.com,Granite Professional Lines,PRD-000090,0.86,Proposed,,,2026-09-03 01:15:00
+AMS-East,AE-1838,Avery Reyes,12304009,avery.reyes@example.com,Lakeside Commercial Insurance,PRD-000091,0.99,Matched,seed,2026-02-12 12:06:00,2026-02-10 16:06:00
+AMS-West,AW-2041,Kenji Webb,11324228,kenji.webb@example.com,Granite Professional Lines,PRD-000092,0.97,Matched,seed,2026-01-23 03:22:00,2026-01-22 12:22:00
+AMS-West,AW-2054,Avery Hale,10465058,avery.hale@example.com,Mesa Personal Lines,PRD-000093,0.98,Matched,seed,2026-08-16 02:04:00,2026-08-14 11:04:00
+CRM,C-1549,Avery Hale,10465058,ahale@example.com,Mesa Personal Lines,PRD-000093,0.97,Matched,seed,2026-07-22 05:11:00,2026-07-22 03:11:00
+AMS-West,AW-2084,Oscar Xu,10199765,oscar.xu@example.com,Summit Wholesale,PRD-000094,0.99,Matched,seed,2026-02-04 11:28:00,2026-02-03 13:28:00
+AMS-East,AE-1867,Kofi Foster,17125118,kofi.foster@example.com,Lakeside Commercial Insurance,PRD-000095,0.97,Matched,seed,2026-04-29 15:53:00,2026-04-28 16:53:00
+AMS-West,AW-2108,Julia Chen,11660257,julia.chen@example.com,Keystone Transportation Programs,PRD-000096,0.98,Matched,seed,2026-04-29 03:14:00,2026-04-28 12:14:00
+ProgramAdmin,P-1604,Julia C. Chen,11660257,jchen@example.com,Keystone Transportation Programs,PRD-000096,0.98,Proposed,,,2026-09-03 23:33:00
+AMS-West,AW-2121,Victor Sato,19327758,victor.sato@example.com,Harbor Benefits Group,PRD-000097,1.00,Matched,seed,2026-03-19 22:51:00,2026-03-18 19:51:00
+CRM,C-1569,Victor L. Sato,19327758,victor.sato@example.com,Harbor Benefits Group,PRD-000097,0.96,Matched,seed,2026-04-14 18:57:00,2026-04-14 01:57:00
+AMS-West,AW-2137,Kofi Jensen,17379331,kofi.jensen@example.com,Riverbend Agency,PRD-000098,0.99,Matched,seed,2026-07-12 15:25:00,2026-07-12 06:25:00
+ProgramAdmin,P-1626,Kofi Jensen,17379331,kjensen@example.com,Riverbend Agency,PRD-000098,0.96,Matched,seed,2026-08-31 06:48:00,2026-08-30 08:48:00
+AMS-East,AE-1882,Miguel Jensen,18813155,miguel.jensen@example.com,Keystone Transportation Programs,PRD-000099,0.98,Matched,seed,2026-01-18 03:55:00,2026-01-16 20:55:00
+ProgramAdmin,P-1643,Miguel L. Jensen,18813155,mjensen@example.com,Keystone Transportation Programs,PRD-000099,0.96,Proposed,,,2026-09-24 20:46:00
+AMS-West,AW-2141,Sofia Osei,19909324,,Granite Professional Lines,PRD-000100,0.98,Matched,seed,2026-09-11 10:39:00,2026-09-10 11:39:00
+ProgramAdmin,P-1666,"Osei, Sofia",19909324,sosei@example.com,Granite Professional Lines,PRD-000100,0.95,Proposed,,,2026-09-25 04:39:00
+AMS-East,AE-1901,Dana Brooks,10381971,dana.brooks@example.com,Summit Wholesale,PRD-000101,0.99,Matched,seed,2026-05-26 17:14:00,2026-05-25 07:14:00
+AMS-East,AE-1937,Paula Yamada,11359090,paula.yamada@example.com,Pinecrest Insurance Advisors,PRD-000102,0.97,Matched,seed,2026-05-24 06:51:00,2026-05-23 12:51:00
+ProgramAdmin,P-1700,Paula Yamada,,pyamada@example.com,Pinecrest Insurance Advisors,PRD-000102,0.62,Proposed,,,2026-08-28 04:33:00
+AMS-West,AW-2172,Elena Whitaker,12019253,elena.whitaker@example.com,Mesa Personal Lines,PRD-000103,0.98,Matched,seed,2026-08-18 01:40:00,2026-08-17 00:40:00
+AMS-East,AE-1966,Rosa Yamada,13770413,rosa.yamada@example.com,Delta Program Underwriters,PRD-000104,0.97,Matched,seed,2026-01-20 09:59:00,2026-01-19 23:59:00
+ProgramAdmin,P-1705,Rosa M. Yamada,13770413,rosa.yamada@example.com,Delta Program Underwriters,PRD-000104,0.97,Proposed,,,2026-08-19 02:41:00
+AMS-West,AW-2184,Laura Lambert,17436768,laura.lambert@example.com,Northstar E&S Brokerage,PRD-000105,0.98,Matched,seed,2025-12-15 10:36:00,2025-12-15 05:36:00
+ProgramAdmin,P-1739,Laura Lambert,,laural@example.com,Northstar E&S Brokerage,PRD-000105,0.82,Proposed,,,2026-09-11 04:09:00
+AMS-East,AE-1999,Hector Sato,18740538,hector.sato@example.com,Northstar E&S Brokerage,PRD-000106,0.99,Matched,seed,2026-08-20 13:43:00,2026-08-19 16:43:00
+CRM,C-1603,Hector A. Sato,,hector.sato@example.com,Northstar E&S Brokerage,PRD-000106,0.66,Matched,seed,2026-03-16 08:04:00,2026-03-16 05:04:00
+AMS-West,AW-2204,Julia Underwood,,julia.underwood@example.com,Pinecrest Insurance Advisors,PRD-000107,0.97,Matched,seed,2026-02-05 07:02:00,2026-02-04 13:02:00
+AMS-East,AE-2001,Avery Chen,19902472,avery.chen@example.com,Riverbend Agency,PRD-000108,0.97,Matched,seed,2026-02-08 08:31:00,2026-02-06 13:31:00
+CRM,C-1635,A. Chen,,achen@example.com,Riverbend Agency,PRD-000108,0.73,Proposed,,,2026-08-31 19:50:00
+AMS-West,AW-2217,Oscar Reyes,13398259,oscar.reyes@example.com,Coastal Risk Partners,PRD-000109,0.97,Matched,seed,2026-09-04 09:41:00,2026-09-02 09:41:00
+ProgramAdmin,P-1757,"Reyes, Oscar",,oscar.reyes@example.com,Coastal Risk Partners,PRD-000109,0.71,Matched,seed,2026-08-20 17:13:00,2026-08-19 02:13:00
+AMS-East,AE-2012,Tariq Xu,17996374,tariq.xu@example.com,Summit Wholesale,PRD-000110,0.99,Matched,seed,2026-02-01 22:40:00,2026-02-01 01:40:00
+ProgramAdmin,P-1758,Tariq L. Xu,17996374,tariq.xu@example.com,Summit Wholesale,PRD-000110,0.98,Proposed,,,2026-09-18 02:42:00
+AMS-East,AE-2017,Quinn Lambert,14296918,quinn.lambert@example.com,Mesa Personal Lines,PRD-000111,0.98,Matched,seed,2026-02-13 21:03:00,2026-02-12 11:03:00
+AMS-West,AW-2242,Laura Brooks,17627459,,Riverbend Agency,PRD-000112,0.98,Matched,seed,2026-07-30 10:37:00,2026-07-30 02:37:00
+ProgramAdmin,P-1779,Laura L. Brooks,17627459,,Riverbend Agency,PRD-000112,0.95,Proposed,,,2026-08-15 20:53:00
+AMS-East,AE-2034,Daniel Sato,12598254,daniel.sato@example.com,Granite Professional Lines,PRD-000113,0.98,Matched,seed,2026-02-07 01:14:00,2026-02-06 13:14:00
+CRM,C-1672,"Sato, Daniel",,dsato@example.com,Granite Professional Lines,PRD-000113,0.85,Proposed,,,2026-09-27 06:16:00
+AMS-East,AE-2065,Leah Vance,17309729,leah.vance@example.com,Keystone Transportation Programs,PRD-000114,0.99,Matched,seed,2026-03-22 09:56:00,2026-03-21 09:56:00
+AMS-East,AE-2072,Kenji Reyes,,kenji.reyes@example.com,Pinecrest Insurance Advisors,PRD-000115,0.98,Matched,seed,2026-03-27 16:08:00,2026-03-26 07:08:00
+AMS-East,AE-2083,Uma Zimmer,11296586,uma.zimmer@example.com,Coastal Risk Partners,PRD-000116,0.98,Matched,seed,2026-05-22 05:55:00,2026-05-20 14:55:00
+CRM,C-1692,"Zimmer, Uma",11296586,uma.zimmer@example.com,Coastal Risk Partners,PRD-000116,0.96,Proposed,,,2026-09-10 08:00:00
+AMS-West,AW-2273,Paula Brooks,10699679,paula.brooks@example.com,Coastal Risk Partners,PRD-000117,0.97,Matched,seed,2026-02-18 08:33:00,2026-02-16 14:33:00
+CRM,C-1696,PAULA BROOKS,10699679,paulab@example.com,Coastal Risk Partners,PRD-000117,0.96,Matched,seed,2026-08-21 06:54:00,2026-08-20 13:54:00
+AMS-West,AW-2292,Julia Gupta,,julia.gupta@example.com,Keystone Transportation Programs,PRD-000118,0.99,Matched,seed,2026-08-28 09:08:00,2026-08-26 09:08:00
+ProgramAdmin,P-1811,Julia Gupta,,juliag@example.com,Keystone Transportation Programs,PRD-000118,0.77,Matched,seed,2026-07-15 02:56:00,2026-07-14 09:56:00
+AMS-West,AW-2314,Zoe Nguyen,11796370,zoe.nguyen@example.com,Delta Program Underwriters,PRD-000119,0.98,Matched,seed,2026-02-01 14:07:00,2026-01-31 18:07:00
+AMS-East,AE-2099,Julia Jensen,12250726,julia.jensen@example.com,Riverbend Agency,PRD-000120,0.97,Matched,seed,2026-01-08 15:23:00,2026-01-08 11:23:00
+AMS-East,AE-2121,Wendy Ellis,12616683,wendy.ellis@example.com,Summit Wholesale,PRD-000121,0.98,Matched,seed,2025-12-27 13:57:00,2025-12-25 17:57:00
+ProgramAdmin,P-1825,WENDY ELLIS,12616683,wendy.ellis@example.com,Summit Wholesale,PRD-000121,0.96,Proposed,,,2026-08-04 04:18:00
+AMS-West,AW-2318,Grace Thornton,18397008,grace.thornton@example.com,Pinecrest Insurance Advisors,PRD-000122,0.98,Matched,seed,2026-06-01 07:56:00,2026-05-30 12:56:00
+CRM,C-1702,Grace Thornton,,grace.thornton@example.com,Pinecrest Insurance Advisors,PRD-000122,0.77,Proposed,,,2026-08-29 05:21:00
+AMS-East,AE-2150,Kenji Raman,12770068,kenji.raman@example.com,Bayview Excess Markets,PRD-000123,0.98,Matched,seed,2026-04-18 05:22:00,2026-04-17 11:22:00
+ProgramAdmin,P-1860,Kenji L. Raman,12770068,kenjir@example.com,Bayview Excess Markets,PRD-000123,0.98,Matched,seed,2026-05-05 21:24:00,2026-05-05 17:24:00
+AMS-East,AE-2185,Miguel Moreno,18688702,miguel.moreno@example.com,Lakeside Commercial Insurance,PRD-000124,0.99,Matched,seed,2026-08-30 02:12:00,2026-08-28 13:12:00
+ProgramAdmin,P-1869,Miguel Moreno,,miguelm@example.com,Lakeside Commercial Insurance,PRD-000124,0.82,Matched,seed,2026-05-09 15:53:00,2026-05-07 15:53:00
+AMS-West,AW-2324,Grace Brooks,17070350,,Bayview Excess Markets,PRD-000125,0.99,Matched,seed,2026-01-11 23:16:00,2026-01-11 13:16:00
+CRM,C-1730,Grace Brooks,,gbrooks@example.com,Bayview Excess Markets,PRD-000125,0.85,Matched,seed,2026-08-19 21:40:00,2026-08-19 15:40:00
+AMS-East,AE-2189,Avery Ellis,12641009,avery.ellis@example.com,Pinecrest Insurance Advisors,PRD-000126,0.98,Matched,seed,2026-02-10 21:08:00,2026-02-09 04:08:00
+AMS-East,AE-2224,Miguel Xu,13167643,miguel.xu@example.com,Keystone Transportation Programs,PRD-000127,0.99,Matched,seed,2026-06-16 15:56:00,2026-06-15 02:56:00
+AMS-West,AW-2337,Rosa Moreno,15380247,,Northstar E&S Brokerage,PRD-000128,0.99,Matched,seed,2026-02-15 05:31:00,2026-02-13 08:31:00
+ProgramAdmin,P-1902,R. Moreno,15380247,,Northstar E&S Brokerage,PRD-000128,0.95,Matched,seed,2026-05-25 10:27:00,2026-05-24 09:27:00
+AMS-West,AW-2347,Miguel Quist,14205502,miguel.quist@example.com,Coastal Risk Partners,PRD-000129,1.00,Matched,seed,2026-09-03 15:56:00,2026-09-01 22:56:00
+ProgramAdmin,P-1908,Miguel J. Quist,,miguelq@example.com,Coastal Risk Partners,PRD-000129,0.72,Proposed,,,2026-08-23 18:57:00
+AMS-West,AW-2384,Kenji Whitaker,12022966,kenji.whitaker@example.com,Granite Professional Lines,PRD-000130,0.99,Matched,seed,2025-12-12 22:40:00,2025-12-11 08:40:00
+CRM,C-1737,K. Whitaker,12022966,kenji.whitaker@example.com,Granite Professional Lines,PRD-000130,0.98,Matched,seed,2026-08-29 20:51:00,2026-08-28 00:51:00
+AMS-East,AE-2229,Tariq Abbott,19215982,tariq.abbott@example.com,Mesa Personal Lines,PRD-000131,0.98,Matched,seed,2026-01-19 02:29:00,2026-01-18 10:29:00
+ProgramAdmin,P-1922,Tariq D. Abbott,,tariq.abbott@example.com,Mesa Personal Lines,PRD-000131,0.80,Matched,seed,2026-09-09 10:57:00,2026-09-08 04:57:00
+AMS-West,AW-2397,Quinn Ortiz,18908688,quinn.ortiz@example.com,Harbor Benefits Group,PRD-000132,1.00,Matched,seed,2026-05-26 20:50:00,2026-05-25 11:50:00
+AMS-East,AE-2237,Sam Thornton,11895910,sam.thornton@example.com,Lakeside Commercial Insurance,PRD-000133,1.00,Matched,seed,2026-05-02 11:22:00,2026-05-01 14:22:00
+ProgramAdmin,P-1951,SAM THORNTON,,sam.thornton@example.com,Lakeside Commercial Insurance,PRD-000133,0.78,Proposed,,,2026-08-25 21:38:00
+AMS-West,AW-2420,Jordan Abbott,19730605,jordan.abbott@example.com,Lakeside Commercial Insurance,PRD-000134,0.98,Matched,seed,2026-05-22 05:23:00,2026-05-21 23:23:00
+CRM,C-1758,"Abbott, Jordan",19730605,jordan.abbott@example.com,Lakeside Commercial Insurance,PRD-000134,0.98,Matched,seed,2026-08-06 08:45:00,2026-08-04 17:45:00
+AMS-West,AW-2429,Quinn Underwood,11327739,quinn.underwood@example.com,Northstar E&S Brokerage,PRD-000135,0.99,Matched,seed,2025-12-28 06:13:00,2025-12-26 12:13:00
+ProgramAdmin,P-1967,QUINN UNDERWOOD,11327739,qunderwood@example.com,Northstar E&S Brokerage,PRD-000135,0.97,Proposed,,,2026-08-25 06:48:00
+AMS-West,AW-2462,Fatima Zimmer,14642260,fatima.zimmer@example.com,Northstar E&S Brokerage,PRD-000136,0.97,Matched,seed,2026-07-31 16:58:00,2026-07-31 01:58:00
+CRM,C-1790,F. Zimmer,,fzimmer@example.com,Northstar E&S Brokerage,PRD-000136,0.71,Proposed,,,2026-09-22 14:27:00
+AMS-West,AW-2478,Caleb Underwood,15640237,caleb.underwood@example.com,Keystone Transportation Programs,PRD-000137,0.99,Matched,seed,2026-02-09 09:54:00,2026-02-08 00:54:00
+ProgramAdmin,P-1975,Caleb Underwood,,caleb.underwood@example.com,Keystone Transportation Programs,PRD-000137,0.89,Matched,seed,2026-04-25 07:11:00,2026-04-25 02:11:00
+AMS-West,AW-2505,Isaac Yamada,13863695,isaac.yamada@example.com,Pinecrest Insurance Advisors,PRD-000138,0.98,Matched,seed,2026-03-20 08:44:00,2026-03-20 06:44:00
+ProgramAdmin,P-1987,Isaac L. Yamada,13863695,iyamada@example.com,Pinecrest Insurance Advisors,PRD-000138,0.99,Proposed,,,2026-09-15 01:19:00
+AMS-West,AW-2526,Quinn Raman,17150489,quinn.raman@example.com,Bayview Excess Markets,PRD-000139,0.98,Matched,seed,2026-09-02 14:32:00,2026-09-01 09:32:00
+AMS-West,AW-2559,Paula Reyes,11285097,paula.reyes@example.com,Northstar E&S Brokerage,PRD-000140,1.00,Matched,seed,2026-01-04 20:48:00,2026-01-03 04:48:00
+AMS-West,AW-2593,Isaac Kowalski,14150936,isaac.kowalski@example.com,Bayview Excess Markets,PRD-000141,0.98,Matched,seed,2026-06-07 00:03:00,2026-06-05 22:03:00
+AMS-East,AE-2270,Kofi Ibarra,18829466,kofi.ibarra@example.com,Bayview Excess Markets,PRD-000142,0.98,Matched,seed,2026-08-27 14:37:00,2026-08-25 16:37:00
+AMS-West,AW-2612,Imani Thornton,15857667,imani.thornton@example.com,Summit Wholesale,PRD-000143,0.99,Matched,seed,2025-12-25 22:39:00,2025-12-24 16:39:00
+CRM,C-1813,IMANI THORNTON,15857667,imani.thornton@example.com,Summit Wholesale,PRD-000143,0.96,Proposed,,,2026-09-21 21:02:00
+AMS-East,AE-2304,Sofia Kowalski,11719058,sofia.kowalski@example.com,Granite Professional Lines,PRD-000144,0.97,Matched,seed,2025-12-04 22:09:00,2025-12-04 12:09:00
+AMS-West,AW-2619,Tariq Delgado,15265538,tariq.delgado@example.com,Northstar E&S Brokerage,PRD-000145,0.98,Matched,seed,2026-08-03 20:25:00,2026-08-02 21:25:00
+CRM,C-1821,TARIQ DELGADO,15265538,tariqd@example.com,Northstar E&S Brokerage,PRD-000145,0.95,Proposed,,,2026-08-05 09:49:00
+AMS-West,AW-2628,Paula Zimmer,11671728,paula.zimmer@example.com,Harbor Benefits Group,PRD-000146,1.00,Matched,seed,2026-05-20 17:28:00,2026-05-19 04:28:00
+CRM,C-1828,P. Zimmer,,pzimmer@example.com,Harbor Benefits Group,PRD-000146,0.73,Matched,seed,2026-08-28 16:54:00,2026-08-26 22:54:00
+AMS-East,AE-2318,Victor Ellis,12963315,victor.ellis@example.com,Delta Program Underwriters,PRD-000147,0.98,Matched,seed,2026-01-05 01:43:00,2026-01-03 11:43:00
+AMS-East,AE-2320,Mateo Webb,17688579,mateo.webb@example.com,Lakeside Commercial Insurance,PRD-000148,0.98,Matched,seed,2026-04-23 21:04:00,2026-04-22 02:04:00
+AMS-West,AW-2644,Caleb Vance,11984250,caleb.vance@example.com,Northstar E&S Brokerage,PRD-000149,1.00,Matched,seed,2026-03-27 15:33:00,2026-03-26 08:33:00
+CRM,C-1842,C. Vance,,caleb.vance@example.com,Northstar E&S Brokerage,PRD-000149,0.74,Matched,seed,2026-08-13 18:29:00,2026-08-12 03:29:00
+AMS-West,AW-2664,Sofia Sato,19530654,sofia.sato@example.com,Coastal Risk Partners,PRD-000150,0.97,Matched,seed,2026-05-05 14:58:00,2026-05-04 15:58:00
+CRM,C-1845,Sofia Sato,19530654,ssato@example.com,Coastal Risk Partners,PRD-000150,0.97,Matched,seed,2026-06-23 04:26:00,2026-06-22 16:26:00
+CRM,C-1852,Kofi Thornton,27720539,,Keystone Transportation Programs,,,Rejected,seed,2026-09-03 21:23:00,2026-09-03 09:23:00
+CRM,C-1866,Owen Brooks,21042794,,Keystone Transportation Programs,,,Rejected,seed,2026-08-30 06:52:00,2026-08-28 22:52:00
+CRM,C-1902,Grace Jensen,25841842,,Riverbend Agency,,,Rejected,seed,2026-07-15 04:20:00,2026-07-14 13:20:00
+CRM,C-1912,Wendy Chen,29209642,,Summit Wholesale,,,Rejected,seed,2026-08-08 14:07:00,2026-08-08 05:07:00
+CRM,C-1947,Julia Reyes,26856115,,Harbor Benefits Group,,,Rejected,seed,2026-08-28 02:34:00,2026-08-27 09:34:00
+CRM,C-1952,Sam Chen,29142921,,Lakeside Commercial Insurance,,,Rejected,seed,2026-08-29 20:53:00,2026-08-29 06:53:00
+CRM,C-1957,Rosa Thornton,22798972,,Coastal Risk Partners,,,Unmatched,,,2026-09-07 02:17:00
+CRM,C-1971,Imani Ortiz,26982159,imani.ortiz@example.com,Summit Wholesale,,,Unmatched,,,2026-09-11 16:44:00
+AMS-East,AE-2347,Wendy Jensen,23785254,,Granite Professional Lines,,,Unmatched,,,2026-09-21 05:08:00
+AMS-East,AE-2374,Hector Whitaker,29639391,hector.whitaker@example.com,Coastal Risk Partners,,,Unmatched,,,2026-09-26 22:53:00
+CRM,C-2007,Grace Zimmer,28813443,,Keystone Transportation Programs,,,Unmatched,,,2026-09-30 05:43:00
+AMS-East,AE-2400,Marcus Ellis,23949439,marcus.ellis@example.com,Keystone Transportation Programs,,,Unmatched,,,2026-09-29 16:06:00
+CRM,C-2044,Fatima Lambert,29638808,,Granite Professional Lines,,,Unmatched,,,2026-09-28 15:42:00
+AMS-West,AW-2692,Uma Jensen,21209004,uma.jensen@example.com,Bayview Excess Markets,,,Unmatched,,,2026-09-13 09:19:00
+AMS-West,AW-2702,Quinn Okafor,28164648,quinn.okafor@example.com,Mesa Personal Lines,,,Unmatched,,,2026-09-20 13:29:00
+CRM,C-2066,Priya Thornton,29796527,priya.thornton@example.com,Summit Wholesale,,,Unmatched,,,2026-09-23 06:38:00
+AMS-West,AW-2723,Oscar Gupta,28942499,oscar.gupta@example.com,Mesa Personal Lines,,,Unmatched,,,2026-09-14 13:25:00
+AMS-West,AW-2734,Priya Reyes,,priya.reyes@example.com,Summit Wholesale,,,Unmatched,,,2026-09-11 23:56:00

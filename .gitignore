@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+app/local_mdm.duckdb
+.deploy_outputs.json
+.databricks/
+.venv/
+.DS_Store

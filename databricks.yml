@@ -1,0 +1,44 @@
+# Databricks Asset Bundle: BEACON Producer MDM app (MVP)
+# Repo name per B&B standard: dp-enterprise-producer-master
+# warehouse_id and genie_space_id come from scripts/setup_databricks.py (deploy.sh passes them).
+bundle:
+  name: dp-enterprise-producer-master
+
+variables:
+  env:
+    default: dev
+  warehouse_id:
+    description: SQL warehouse the app queries
+  genie_space_id:
+    description: Genie space the app's Ask Genie tab uses
+
+sync:
+  exclude:
+    - app/local_mdm.duckdb
+    - app/__pycache__
+
+resources:
+  apps:
+    producer_mdm:
+      name: producer-mdm-${var.env}
+      description: BEACON master data steward app (Producer, MVP)
+      source_code_path: ./app
+      resources:
+        # names must match valueFrom in app/app.yaml
+        - name: sql-warehouse
+          sql_warehouse:
+            id: ${var.warehouse_id}
+            permission: CAN_USE
+        - name: genie-space
+          genie_space:
+            name: Producer master data (${var.env})
+            space_id: ${var.genie_space_id}
+            permission: CAN_RUN
+
+# Workspace host comes from DATABRICKS_HOST (set by deploy.sh).
+# Add test and prod targets, each pointing at its own workspace, when you promote.
+targets:
+  dev:
+    default: true
+    variables:
+      env: dev

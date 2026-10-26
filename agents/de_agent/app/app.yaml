@@ -1,0 +1,13 @@
+command: ["streamlit", "run", "app.py"]
+
+env:
+  - name: DATABRICKS_WAREHOUSE_ID
+    valueFrom: sql-warehouse
+  - name: DE_AGENT_MODEL
+    valueFrom: serving-endpoint
+  - name: DE_AGENT_BACKEND
+    value: "databricks"
+  - name: DE_AGENT_DRAFTS_VOLUME
+    value: "/Volumes/enterprise_dev/sandbox/de_agent_drafts"
+  - name: DE_AGENT_AUDIT_TABLE
+    value: "enterprise_dev.sandbox.de_agent_audit"

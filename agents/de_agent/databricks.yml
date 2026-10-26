@@ -1,0 +1,40 @@
+# Databricks Asset Bundle: BEACON data engineering agent (dev)
+# warehouse_id and model_endpoint are passed in by scripts/deploy_de_agent.py.
+bundle:
+  name: dp-platform-de-agent
+
+variables:
+  env:
+    default: dev
+  warehouse_id:
+    description: SQL warehouse the agent uses for read-only queries
+  model_endpoint:
+    description: Name of a chat model serving endpoint that supports tool calling
+
+sync:
+  exclude:
+    - app/__pycache__
+    - app/drafts
+
+resources:
+  apps:
+    de_agent:
+      name: de-agent-${var.env}
+      description: BEACON data engineering agent (drafts only, read-only SQL)
+      source_code_path: ./app
+      resources:
+        # names must match valueFrom in app/app.yaml
+        - name: sql-warehouse
+          sql_warehouse:
+            id: ${var.warehouse_id}
+            permission: CAN_USE
+        - name: serving-endpoint
+          serving_endpoint:
+            name: ${var.model_endpoint}
+            permission: CAN_QUERY
+
+targets:
+  dev:
+    default: true
+    variables:
+      env: dev

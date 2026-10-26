@@ -1,0 +1,6 @@
+streamlit>=1.49
+databricks-sdk>=0.40
+databricks-sql-connector>=3.4
+openai>=1.40
+sqlglot>=25
+duckdb>=1.1  # local demo mode only

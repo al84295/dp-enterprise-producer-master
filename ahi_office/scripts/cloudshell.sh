@@ -17,4 +17,7 @@ export DATABRICKS_AUTH_TYPE=azure-cli
 echo "Workspace: $DATABRICKS_HOST"
 python3 -m pip install --quiet --upgrade "databricks-sdk>=0.60"
 cd "$HERE"
-python3 scripts/deploy_ahi.py 2>&1 | tee ~/ahi-deploy.log
+nohup env PATH="$PATH" DATABRICKS_HOST="$DATABRICKS_HOST" DATABRICKS_AUTH_TYPE=azure-cli python3 scripts/deploy_ahi.py > ~/ahi-deploy.log 2>&1 &
+echo "Deploying in the background. Watch progress with:  tail -f ~/ahi-deploy.log"
+sleep 2
+tail -f ~/ahi-deploy.log

@@ -1,0 +1,57 @@
+# How each AHI office (profit centre) sends its three file types, and how their columns map to the
+# AHI standard model. Add an office by adding a block here; no code changes.
+# Standard columns per entity are listed under `standard`.
+
+standard:
+  producer: [source_key, producer_name, npn, email, agency_name, state]
+  provider: [source_key, provider_name, provider_type, naic_code, state]
+  policy: [policy_number, term_effective_date, expiration_date, status, line_of_business,
+           written_premium, producer_key, provider_key, risk_state]
+
+offices:
+  pc01:
+    name: Profit centre 01          # [Confirm] real office names and codes
+    format: csv
+    read: {sep: ","}
+    date_format: "%m/%d/%Y"
+    columns:
+      producer: {Agent Code: source_key, Agent Name: producer_name, NPN: npn, Email: email, Agency: agency_name, State: state}
+      provider: {Carrier Code: source_key, Carrier Name: provider_name, Type: provider_type, NAIC: naic_code, Domicile: state}
+      policy: {Policy No: policy_number, Eff Date: term_effective_date, Exp Date: expiration_date, Status: status,
+               LOB: line_of_business, Written Premium: written_premium, Agent Code: producer_key,
+               Carrier Code: provider_key, Risk State: risk_state}
+  pc02:
+    name: Profit centre 02
+    format: xlsx
+    read: {sheet_name: Data}
+    date_format: "%Y-%m-%d"
+    columns:
+      producer: {ProducerID: source_key, ProducerName: producer_name, NationalProducerNumber: npn,
+                 EmailAddress: email, AgencyName: agency_name, LicenseState: state}
+      provider: {ProviderID: source_key, ProviderName: provider_name, ProviderType: provider_type,
+                 NAICCode: naic_code, State: state}
+      policy: {PolicyNumber: policy_number, EffectiveDate: term_effective_date, ExpirationDate: expiration_date,
+               PolicyStatus: status, LineOfBusiness: line_of_business, Premium: written_premium,
+               ProducerID: producer_key, ProviderID: provider_key, State: risk_state}
+  pc03:
+    name: Profit centre 03
+    format: txt
+    read: {sep: "|"}
+    date_format: "%Y%m%d"
+    columns:
+      producer: {prod_cd: source_key, prod_nm: producer_name, npn_no: npn, email_addr: email, agcy_nm: agency_name, st: state}
+      provider: {mkt_cd: source_key, mkt_nm: provider_name, mkt_type: provider_type, naic_cd: naic_code, dom_st: state}
+      policy: {pol_num: policy_number, eff_dt: term_effective_date, exp_dt: expiration_date, pol_stat: status,
+               lob_desc: line_of_business, wrtn_prem: written_premium, prod_cd: producer_key, mkt_cd: provider_key,
+               risk_st: risk_state}
+
+reference:
+  states: [AL, AK, AZ, AR, CA, CO, CT, DE, DC, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO,
+           MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, RI, SC, SD, TN, TX, UT, VT, VA, WA, WV, WI, WY]
+  provider_types: [Carrier, MGA, MGU]
+  policy_status: {Active: Active, In Force: Active, Cancelled: Cancelled, Canceled: Cancelled, Expired: Expired}
+  lines_of_business: [Commercial Auto, General Liability, Property, Workers Comp, Professional Liability]
+
+thresholds:                     # [Confirm] fail the batch if more than this share of rows is rejected
+  max_quarantine_pct: 10
+  max_quarantine_pct_provider: 25   # provider files are small, so one bad row is a large share

@@ -1,0 +1,773 @@
+{
+ "datasets": [
+  {
+   "name": "pif",
+   "displayName": "Policies in force",
+   "queryLines": [
+    "SELECT f.as_of_date, f.profit_centre, f.line_of_business, f.policy_count, f.written_premium, ",
+    "       p.producer_name, v.provider_name, v.provider_type ",
+    "FROM ahi_dev.gold.fct_policies_in_force f ",
+    "JOIN ahi_dev.gold.dim_producer p ON p.producer_id = f.producer_id ",
+    "JOIN ahi_dev.gold.dim_provider v ON v.provider_id = f.provider_id ",
+    "WHERE f.as_of_date = (SELECT max(as_of_date) FROM ahi_dev.gold.fct_policies_in_force)"
+   ]
+  },
+  {
+   "name": "masters",
+   "displayName": "Master counts",
+   "queryLines": [
+    "SELECT (SELECT count(*) FROM ahi_dev.gold.dim_producer WHERE producer_id <> 'PRD-UNKNOWN') AS producers, ",
+    "       (SELECT count(*) FROM ahi_dev.gold.dim_provider WHERE provider_id <> 'PRV-UNKNOWN') AS providers, ",
+    "       (SELECT count(*) FROM ahi_dev.gold.dim_policy) AS policy_terms"
+   ]
+  },
+  {
+   "name": "abc",
+   "displayName": "ABC control log",
+   "queryLines": [
+    "SELECT started_at, hop, profit_centre, entity, regexp_extract(source_name, '[^/]+$', 0) AS source, ",
+    "       rows_in, rows_out, rows_rejected, status, notes FROM ahi_dev.ops.abc_control_log"
+   ]
+  },
+  {
+   "name": "dq",
+   "displayName": "Data quality findings",
+   "queryLines": [
+    "SELECT checked_at, hop, profit_centre, entity, rule, action, rows_checked, rows_failed, status ",
+    "FROM ahi_dev.ops.dq_results WHERE rows_failed > 0"
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "name": "gold",
+   "displayName": "Gold reporting",
+   "layout": [
+    {
+     "widget": {
+      "name": "c_pif",
+      "queries": [
+       {
+        "name": "main_query",
+        "query": {
+         "datasetName": "pif",
+         "fields": [
+          {
+           "name": "policies",
+           "expression": "SUM(`policy_count`)"
+          }
+         ],
+         "disaggregated": false
+        }
+       }
+      ],
+      "spec": {
+       "version": 2,
+       "widgetType": "counter",
+       "encodings": {
+        "value": {
+         "fieldName": "policies",
+         "displayName": "Policies in force"
+        }
+       },
+       "frame": {
+        "showTitle": true,
+        "title": "Policies in force"
+       }
+      }
+     },
+     "position": {
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 3
+     }
+    },
+    {
+     "widget": {
+      "name": "c_prem",
+      "queries": [
+       {
+        "name": "main_query",
+        "query": {
+         "datasetName": "pif",
+         "fields": [
+          {
+           "name": "premium",
+           "expression": "SUM(`written_premium`)"
+          }
+         ],
+         "disaggregated": false
+        }
+       }
+      ],
+      "spec": {
+       "version": 2,
+       "widgetType": "counter",
+       "encodings": {
+        "value": {
+         "fieldName": "premium",
+         "displayName": "Premium in force"
+        }
+       },
+       "frame": {
+        "showTitle": true,
+        "title": "Premium in force"
+       }
+      }
+     },
+     "position": {
+      "x": 1,
+      "y": 0,
+      "width": 1,
+      "height": 3
+     }
+    },
+    {
+     "widget": {
+      "name": "c_prod",
+      "queries": [
+       {
+        "name": "main_query",
+        "query": {
+         "datasetName": "masters",
+         "fields": [
+          {
+           "name": "producers",
+           "expression": "SUM(`producers`)"
+          }
+         ],
+         "disaggregated": false
+        }
+       }
+      ],
+      "spec": {
+       "version": 2,
+       "widgetType": "counter",
+       "encodings": {
+        "value": {
+         "fieldName": "producers",
+         "displayName": "Producers (mastered)"
+        }
+       },
+       "frame": {
+        "showTitle": true,
+        "title": "Producers (mastered)"
+       }
+      }
+     },
+     "position": {
+      "x": 2,
+      "y": 0,
+      "width": 1,
+      "height": 3
+     }
+    },
+    {
+     "widget": {
+      "name": "c_prov",
+      "queries": [
+       {
+        "name": "main_query",
+        "query": {
+         "datasetName": "masters",
+         "fields": [
+          {
+           "name": "providers",
+           "expression": "SUM(`providers`)"
+          }
+         ],
+         "disaggregated": false
+        }
+       }
+      ],
+      "spec": {
+       "version": 2,
+       "widgetType": "counter",
+       "encodings": {
+        "value": {
+         "fieldName": "providers",
+         "displayName": "Providers (mastered)"
+        }
+       },
+       "frame": {
+        "showTitle": true,
+        "title": "Providers (mastered)"
+       }
+      }
+     },
+     "position": {
+      "x": 3,
+      "y": 0,
+      "width": 1,
+      "height": 3
+     }
+    },
+    {
+     "widget": {
+      "name": "c_terms",
+      "queries": [
+       {
+        "name": "main_query",
+        "query": {
+         "datasetName": "masters",
+         "fields": [
+          {
+           "name": "policy_terms",
+           "expression": "SUM(`policy_terms`)"
+          }
+         ],
+         "disaggregated": false
+        }
+       }
+      ],
+      "spec": {
+       "version": 2,
+       "widgetType": "counter",
+       "encodings": {
+        "value": {
+         "fieldName": "policy_terms",
+         "displayName": "Policy terms"
+        }
+       },
+       "frame": {
+        "showTitle": true,
+        "title": "Policy terms"
+       }
+      }
+     },
+     "position": {
+      "x": 4,
+      "y": 0,
+      "width": 1,
+      "height": 3
+     }
+    },
+    {
+     "widget": {
+      "name": "b_office",
+      "queries": [
+       {
+        "name": "main_query",
+        "query": {
+         "datasetName": "pif",
+         "fields": [
+          {
+           "name": "profit_centre",
+           "expression": "`profit_centre`"
+          },
+          {
+           "name": "premium",
+           "expression": "SUM(`written_premium`)"
+          }
+         ],
+         "disaggregated": false
+        }
+       }
+      ],
+      "spec": {
+       "version": 3,
+       "widgetType": "bar",
+       "encodings": {
+        "x": {
+         "fieldName": "profit_centre",
+         "scale": {
+          "type": "categorical"
+         },
+         "displayName": "Profit centre"
+        },
+        "y": {
+         "fieldName": "premium",
+         "scale": {
+          "type": "quantitative"
+         },
+         "displayName": "Premium in force by profit centre"
+        }
+       },
+       "frame": {
+        "showTitle": true,
+        "title": "Premium in force by profit centre"
+       }
+      }
+     },
+     "position": {
+      "x": 0,
+      "y": 3,
+      "width": 3,
+      "height": 6
+     }
+    },
+    {
+     "widget": {
+      "name": "b_lob",
+      "queries": [
+       {
+        "name": "main_query",
+        "query": {
+         "datasetName": "pif",
+         "fields": [
+          {
+           "name": "line_of_business",
+           "expression": "`line_of_business`"
+          },
+          {
+           "name": "policies",
+           "expression": "SUM(`policy_count`)"
+          }
+         ],
+         "disaggregated": false
+        }
+       }
+      ],
+      "spec": {
+       "version": 3,
+       "widgetType": "bar",
+       "encodings": {
+        "x": {
+         "fieldName": "line_of_business",
+         "scale": {
+          "type": "categorical"
+         },
+         "displayName": "Line of business"
+        },
+        "y": {
+         "fieldName": "policies",
+         "scale": {
+          "type": "quantitative"
+         },
+         "displayName": "Policies in force by line of business"
+        }
+       },
+       "frame": {
+        "showTitle": true,
+        "title": "Policies in force by line of business"
+       }
+      }
+     },
+     "position": {
+      "x": 3,
+      "y": 3,
+      "width": 3,
+      "height": 6
+     }
+    },
+    {
+     "widget": {
+      "name": "b_type",
+      "queries": [
+       {
+        "name": "main_query",
+        "query": {
+         "datasetName": "pif",
+         "fields": [
+          {
+           "name": "provider_type",
+           "expression": "`provider_type`"
+          },
+          {
+           "name": "premium",
+           "expression": "SUM(`written_premium`)"
+          }
+         ],
+         "disaggregated": false
+        }
+       }
+      ],
+      "spec": {
+       "version": 3,
+       "widgetType": "bar",
+       "encodings": {
+        "x": {
+         "fieldName": "provider_type",
+         "scale": {
+          "type": "categorical"
+         },
+         "displayName": "Provider type"
+        },
+        "y": {
+         "fieldName": "premium",
+         "scale": {
+          "type": "quantitative"
+         },
+         "displayName": "Premium in force by provider type"
+        }
+       },
+       "frame": {
+        "showTitle": true,
+        "title": "Premium in force by provider type"
+       }
+      }
+     },
+     "position": {
+      "x": 0,
+      "y": 9,
+      "width": 3,
+      "height": 6
+     }
+    },
+    {
+     "widget": {
+      "name": "b_prov",
+      "queries": [
+       {
+        "name": "main_query",
+        "query": {
+         "datasetName": "pif",
+         "fields": [
+          {
+           "name": "provider_name",
+           "expression": "`provider_name`"
+          },
+          {
+           "name": "premium",
+           "expression": "SUM(`written_premium`)"
+          }
+         ],
+         "disaggregated": false
+        }
+       }
+      ],
+      "spec": {
+       "version": 3,
+       "widgetType": "bar",
+       "encodings": {
+        "x": {
+         "fieldName": "provider_name",
+         "scale": {
+          "type": "categorical"
+         },
+         "displayName": "Provider name"
+        },
+        "y": {
+         "fieldName": "premium",
+         "scale": {
+          "type": "quantitative"
+         },
+         "displayName": "Premium in force by provider"
+        }
+       },
+       "frame": {
+        "showTitle": true,
+        "title": "Premium in force by provider"
+       }
+      }
+     },
+     "position": {
+      "x": 3,
+      "y": 9,
+      "width": 3,
+      "height": 6
+     }
+    },
+    {
+     "widget": {
+      "name": "t_pif",
+      "queries": [
+       {
+        "name": "main_query",
+        "query": {
+         "datasetName": "pif",
+         "fields": [
+          {
+           "name": "profit_centre",
+           "expression": "`profit_centre`"
+          },
+          {
+           "name": "producer_name",
+           "expression": "`producer_name`"
+          },
+          {
+           "name": "provider_name",
+           "expression": "`provider_name`"
+          },
+          {
+           "name": "line_of_business",
+           "expression": "`line_of_business`"
+          },
+          {
+           "name": "policy_count",
+           "expression": "`policy_count`"
+          },
+          {
+           "name": "written_premium",
+           "expression": "`written_premium`"
+          }
+         ],
+         "disaggregated": true
+        }
+       }
+      ],
+      "spec": {
+       "version": 1,
+       "widgetType": "table",
+       "encodings": {
+        "columns": [
+         {
+          "fieldName": "profit_centre",
+          "displayName": "Profit centre"
+         },
+         {
+          "fieldName": "producer_name",
+          "displayName": "Producer name"
+         },
+         {
+          "fieldName": "provider_name",
+          "displayName": "Provider name"
+         },
+         {
+          "fieldName": "line_of_business",
+          "displayName": "Line of business"
+         },
+         {
+          "fieldName": "policy_count",
+          "displayName": "Policy count"
+         },
+         {
+          "fieldName": "written_premium",
+          "displayName": "Written premium"
+         }
+        ]
+       },
+       "frame": {
+        "showTitle": true,
+        "title": "Policies in force detail"
+       }
+      }
+     },
+     "position": {
+      "x": 0,
+      "y": 15,
+      "width": 6,
+      "height": 8
+     }
+    }
+   ]
+  },
+  {
+   "name": "controls",
+   "displayName": "Data quality and ABC",
+   "layout": [
+    {
+     "widget": {
+      "name": "t_abc",
+      "queries": [
+       {
+        "name": "main_query",
+        "query": {
+         "datasetName": "abc",
+         "fields": [
+          {
+           "name": "started_at",
+           "expression": "`started_at`"
+          },
+          {
+           "name": "hop",
+           "expression": "`hop`"
+          },
+          {
+           "name": "profit_centre",
+           "expression": "`profit_centre`"
+          },
+          {
+           "name": "entity",
+           "expression": "`entity`"
+          },
+          {
+           "name": "source",
+           "expression": "`source`"
+          },
+          {
+           "name": "rows_in",
+           "expression": "`rows_in`"
+          },
+          {
+           "name": "rows_out",
+           "expression": "`rows_out`"
+          },
+          {
+           "name": "rows_rejected",
+           "expression": "`rows_rejected`"
+          },
+          {
+           "name": "status",
+           "expression": "`status`"
+          },
+          {
+           "name": "notes",
+           "expression": "`notes`"
+          }
+         ],
+         "disaggregated": true
+        }
+       }
+      ],
+      "spec": {
+       "version": 1,
+       "widgetType": "table",
+       "encodings": {
+        "columns": [
+         {
+          "fieldName": "started_at",
+          "displayName": "Started at"
+         },
+         {
+          "fieldName": "hop",
+          "displayName": "Hop"
+         },
+         {
+          "fieldName": "profit_centre",
+          "displayName": "Profit centre"
+         },
+         {
+          "fieldName": "entity",
+          "displayName": "Entity"
+         },
+         {
+          "fieldName": "source",
+          "displayName": "Source"
+         },
+         {
+          "fieldName": "rows_in",
+          "displayName": "Rows in"
+         },
+         {
+          "fieldName": "rows_out",
+          "displayName": "Rows out"
+         },
+         {
+          "fieldName": "rows_rejected",
+          "displayName": "Rows rejected"
+         },
+         {
+          "fieldName": "status",
+          "displayName": "Status"
+         },
+         {
+          "fieldName": "notes",
+          "displayName": "Notes"
+         }
+        ]
+       },
+       "frame": {
+        "showTitle": true,
+        "title": "ABC control log (every load, every hop)"
+       }
+      }
+     },
+     "position": {
+      "x": 0,
+      "y": 0,
+      "width": 6,
+      "height": 9
+     }
+    },
+    {
+     "widget": {
+      "name": "t_dq",
+      "queries": [
+       {
+        "name": "main_query",
+        "query": {
+         "datasetName": "dq",
+         "fields": [
+          {
+           "name": "checked_at",
+           "expression": "`checked_at`"
+          },
+          {
+           "name": "hop",
+           "expression": "`hop`"
+          },
+          {
+           "name": "profit_centre",
+           "expression": "`profit_centre`"
+          },
+          {
+           "name": "entity",
+           "expression": "`entity`"
+          },
+          {
+           "name": "rule",
+           "expression": "`rule`"
+          },
+          {
+           "name": "action",
+           "expression": "`action`"
+          },
+          {
+           "name": "rows_checked",
+           "expression": "`rows_checked`"
+          },
+          {
+           "name": "rows_failed",
+           "expression": "`rows_failed`"
+          },
+          {
+           "name": "status",
+           "expression": "`status`"
+          }
+         ],
+         "disaggregated": true
+        }
+       }
+      ],
+      "spec": {
+       "version": 1,
+       "widgetType": "table",
+       "encodings": {
+        "columns": [
+         {
+          "fieldName": "checked_at",
+          "displayName": "Checked at"
+         },
+         {
+          "fieldName": "hop",
+          "displayName": "Hop"
+         },
+         {
+          "fieldName": "profit_centre",
+          "displayName": "Profit centre"
+         },
+         {
+          "fieldName": "entity",
+          "displayName": "Entity"
+         },
+         {
+          "fieldName": "rule",
+          "displayName": "Rule"
+         },
+         {
+          "fieldName": "action",
+          "displayName": "Action"
+         },
+         {
+          "fieldName": "rows_checked",
+          "displayName": "Rows checked"
+         },
+         {
+          "fieldName": "rows_failed",
+          "displayName": "Rows failed"
+         },
+         {
+          "fieldName": "status",
+          "displayName": "Status"
+         }
+        ]
+       },
+       "frame": {
+        "showTitle": true,
+        "title": "Data quality rules with findings"
+       }
+      }
+     },
+     "position": {
+      "x": 0,
+      "y": 9,
+      "width": 6,
+      "height": 9
+     }
+    }
+   ]
+  }
+ ]
+}

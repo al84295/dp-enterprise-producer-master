@@ -1,0 +1,11 @@
+command: ["streamlit", "run", "app.py"]
+
+env:
+  - name: DATABRICKS_WAREHOUSE_ID
+    valueFrom: sql-warehouse
+  - name: AHI_JOB_ID
+    valueFrom: pipeline-job
+  - name: AHI_CATALOG
+    value: "ahi_dev"
+  - name: AHI_OFFICES
+    value: "pc01,pc02,pc03"

@@ -1,0 +1,7 @@
+mkt_cd|mkt_nm|mkt_type|naic_cd|dom_st
+PC03-M10|Harborline Mutual|Carrier|10011|AZ
+PC03-M11|Redwood Risk MGA|MGA||OH
+PC03-M12|Lakeshore Indemnity|Insurer|10055|AZ
+PC03-M13|Granite State Casualty|Carrier|10044|FL
+PC03-M14|Summit Peak Insurance|Carrier|10022|OH
+PC03-M15|Prairie Program Underwriters|MGA||FL
